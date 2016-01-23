@@ -1,6 +1,7 @@
 import urllib2
 
 class School:
+	#school constrructor takes name and url
 	def __init__(self, name, url):
 		self.name = name 
 		self.url = url #url listing courses
@@ -10,6 +11,7 @@ class Course:
 		self.name = name
 	# implement tagging system
 
+# extracts html from course website
 def extractCourseCatalog(School):
 	url = urllib2.urlopen(School.url)
 	html = url.read()
