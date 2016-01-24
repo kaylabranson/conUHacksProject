@@ -25,7 +25,3 @@ extractCourseCatalog(McGill)
 
 print Concordia.name
 extractCourseCatalog(Concordia)
-
-# for c in courses:
-# 	if tag = c.tag:
-# 		tagCount += 1
