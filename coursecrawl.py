@@ -9,8 +9,9 @@ class School:
 		self.url = url #url listing courses
 
 class Course:
-	def __init__(self, name):
+	def __init__(self, name, description):
 		self.name = name
+		self.description = description
 
 def extractCourseCatalog(School):
 	#accesses the url & takes html
@@ -26,9 +27,10 @@ def extractCourseCatalog(School):
 	txt_file.close()
 
 	#use regex to find courses, remove duplicates and sort
-	course_names = re.findall('^COMP [1-5]\d\d', encoded_content, flags=re.MULTILINE)
+	course_names = re.findall('COMP [0-5]\d*', html)
 	uniq_names = list(set(course_names))
 	uniq_names.sort()
+	getCourseDescriptions(uniq_names)
 
 	names_file = open(School.name + '_courses.txt', 'w')
 
@@ -38,12 +40,15 @@ def extractCourseCatalog(School):
 
 	names_file.close()
 
+def getCourseDescriptions(course_list):
+	for course in course_list:
+		course = Course(course)
 
+
+# Construct objects for schools, extract data from their websites
 McGill = School('McGill', 'https://www.cs.mcgill.ca/academic/courses/all_courses')
 Concordia = School('Concordia', 'https://www.concordia.ca/academics/undergraduate/calendar/current/sec71/71-70.html#b71.70.10')
-
-print McGill.name
+Carleton = School('Carleton', 'http://calendar.carleton.ca/undergrad//courses/COMP/')
 extractCourseCatalog(McGill)
-
-print Concordia.name
 extractCourseCatalog(Concordia)
+extractCourseCatalog(Carleton)

@@ -1,0 +1,492 @@
+
+
+
+Computer Science (COMP) < Calendars | Carleton University
+
+
+
+
+
+
+
+
+
+
+	function getElementsByClassName(className, tag) {
+		var ret = [];
+		if (document.getElementsByClassName) {
+			var els = document.getElementsByClassName(className);
+			var nodere = (tag)? new RegExp("\\b" + tag + "\\b", "i") : null;
+			for(var i=0; i < els.length; i++) {
+				if(nodere.test(els[i].nodeName)) {
+					ret[ret.length] = els[i];
+				}
+			}
+
+		} else {
+
+			var els = document.getElementsByTagName(tag);
+			for(var i=0; i < els.length; i++) {
+				if(els[i].className == className)
+					ret[ret.length] = els[i];
+			}
+		}
+		return ret;
+	}
+	function showNav() {
+		var els = getElementsByClassName("topnav", "a");
+		for(var i=0; i < els.length; i++) {
+			els[i].style.display = "block";
+		}
+	}
+	function hideNav() {
+		var els = getElementsByClassName("topnav", "a");
+		for(var i=0; i < els.length; i++) {
+			els[i].style.display = "none";
+		}
+
+	}
+	function loaded() {
+		if(window.location.hash.length > 0 && window.location.hash != "#top" && window.location.hash != "top")
+			showNav();
+		else
+			hideNav();
+	}
+	$(document).ready(function(){
+		$('#clsearch [name=P]').val('Search All Calendars');
+		$('#clsearch [name=P]').focus(function () {
+		$('#clsearch [name=P]').val('');
+		});
+	});
+
+
+
+
+
+
+
+
+
+
+
+A-Z Index
+Phonebook
+Campus Map
+
+
+
+
+
+
+
+ Carleton.ca  People
+
+
+
+
+
+
+About Carleton
+Admissions
+Academics
+Research
+Campus Life
+Library
+
+
+
+
+2015-2016 Undergraduate Calendar 
+
+
+
+
+
+
+Undergraduate Calendar
+
+Calendar Updates
+Courses
+
+Computer Science (COMP)
+
+
+Programs
+Academic Regulations
+Admissions Regulations
+General Admissions Requirements and Procedures
+Admissions Regulations for Undergraduate Programs
+The University
+About this Calendar
+
+
+Graduate Calendar
+Calendar Archives
+Academic Year -​ Undergraduate Studies
+Academic Year -​ Graduate Studies
+
+
+
+
+
+
+
+2015-2016 Undergraduate Calendar / Courses / Computer Science (COMP)			
+
+
+
+
+
+
+
+
+Computer Science (COMP)
+ 
+
+
+
+
+
+
+ 
+
+School of Computer ScienceFaculty of Science
+Note: some of the following Computer Science courses are  cross-listed from other parts of the Calendar. In every such case, only  one course is actually offered and the two numbers are alternate  identifiers for this single course. Students in the B.C.S. program  should register in such a course under the Computer Science (COMP)  number.
+COMP 1001 [0.5 credit]
+Introduction to Computational Thinking for Arts and Social Science Students
+An introduction to computational thinking and its applications to the arts and social sciences.  Students will gain computational thinking skills by exploring data representation, basic programming concepts, a selection of algorithms, and advanced usage of software packages for the arts and social sciences.
+Precludes additional credit for COMP 1004.  This course cannot be taken for credit by students in Business, Engineering, Computer Science, Mathematics or Science.Lectures three hours a week.
+
+COMP 1004 [0.5 credit]
+Introduction to Computers for the Sciences
+Working knowledge of computers and their applications with particular reference to problems in Science. Computer fundamentals and the use of application packages such as spreadsheets, databases and symbolic Mathematics programs. A basic familiarity with computers is assumed.
+Precludes additional credit for COMP 1001. This course cannot be taken for credit by students in the B.C.S. program or combined programs in Computer Science.Lectures three hours a week.
+
+COMP 1005 [0.5 credit]
+Introduction to Computer Science I
+A first course in programming, emphasizing problem solving and computational thinking. Topics include pseudocode, variables, conditionals, iteration, arrays, objects, functions, sorting, searching, and simulation.
+Precludes additional credit for COMP 1405, SYSC 1100 (no longer offered), ECOR 1606, SYSC 1005.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 1006 [0.5 credit]
+Introduction to Computer Science II
+A second course in programming emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.
+Precludes additional credit for COMP 1406, SYSC 1101 (no longer offered), SYSC 2004.Prerequisite(s): one of COMP 1005, COMP 1405, SYSC 1005, ECOR 1606.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 1405 [0.5 credit]
+Introduction to Computer Science I
+A first course in programming for B.C.S. students emphasizing problem solving and computational thinking. Topics include pseudocode, variables, conditionals, iteration, arrays, objects, functions, sorting, searching, and simulation.
+Precludes additional credit for COMP 1005, SYSC 1100 (no longer offered), ECOR 1606, SYSC 1005.Prerequisite(s): restricted to students registered in the B.C.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 1406 [0.5 credit]
+Introduction to Computer Science II
+A second course in programming for BCS students, emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.
+Precludes additional credit for COMP 1006, SYSC 1101 (no longer offered), SYSC 2004.Prerequisite(s): one of COMP 1405, COMP 1005, ECOR 1606, SYSC 1005. Restricted to students registered in the B.C.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 1501 [0.5 credit]
+Introduction to Computer Game Design
+Introduction to computer game programming interfaces. Topics may include: game balance and level design; storytelling and narrative; basic game architecture; sprite-based games and isometric games; representation of scenes; user interaction; architecture of game consoles; development tools for game consoles; interaction with game peripherals.
+Prerequisite(s): one of COMP 1405, COMP 1005, ECOR 1606, SYSC 1005.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 1601 [0.5 credit]
+Introduction to Mobile Application Development
+Introduction to developing mobile applications using the Mac OS X platform.  Topics include: the Objective-C programming language; development tools; framework API's; and the Quartz graphic system. Extensive practical experience with development for Apple mobile devices such as the iPhone.
+Prerequisite(s): one of COMP 1405, COMP 1005, SYSC 1005, ECOR 1606.Lecture/lab four hours a week.
+
+COMP 1805 [0.5 credit]
+Discrete Structures I
+Introduction to discrete mathematics and discrete structures. Topics include: propositional logic, predicate calculus, set theory, complexity of algorithms, mathematical reasoning and proof techniques, recurrences, induction, finite automata and graph theory. Material is illustrated through examples from computing.
+Also listed as MATH 1805.Precludes additional credit for MATH 1800.Prerequisite(s): one Grade 12 university preparation mathematics course.Lectures three hours a week, tutorial one hour a week.
+
+COMP 1807 [0.5 credit]
+Introduction to Robotics
+An introduction to the field of mobile robots and their applications from a computer science perspective.  The course will discuss common robot programming architectures and strategies. Students will build various robot configurations and experiment with a variety of sensors using behavior-based programming.
+Prerequisite(s): one of COMP 1405, COMP 1005, SYSC 1005, ECOR 1606.Lab four hours a week.
+
+COMP 2401 [0.5 credit]
+Introduction to Systems Programming
+Introduction to system-level programming with fundamental OS concepts, procedures, primitive data types, user-defined types. Topics may include process management, memory management, process coordination and synchronization, inter-process communication, file systems, networking, pointers, heap and stack memory management, and system/library calls.
+Precludes additional credit for COMP 1002 (no longer offered), COMP 1402 (no longer offered), COMP 2001 (no longer offered), SYSC 2006.Prerequisite(s): one of COMP 1406, COMP 1006 or SYSC 2004, with a minimum grade of C-.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 2402 [0.5 credit]
+Abstract Data Types and Algorithms
+Introduction to the design and implementation of abstract data types and to complexity analysis of data structures. Topics include: stacks, queues, lists, trees and graphs. Special attention is given to abstraction, interface specification and hierarchical design using an object-oriented programming language.
+Precludes additional credit for COMP 2002 (no longer offered), SYSC 2002 (no longer offered), SYSC 2100.Prerequisite(s): one of COMP 1406, COMP 1006, SYSC 2004, with a minimum grade of C-.Lectures three hours a week.
+
+COMP 2404 [0.5 credit]
+Introduction to Software Engineering
+Introduction to object-oriented software development, with emphasis on design and implementation of medium-sized programs. Topics include abstraction, modularity, encapsulation, reusability, and design patterns.
+Precludes additional credit for COMP 2004 (no longer offered), SYSC 3010, SYSC 3110.Prerequisite(s): one of COMP 2401, SYSC 2006.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 2406 [0.5 credit]
+Fundamentals of Web Applications
+Introduction to Internet application development; emphasis on computer science fundamentals of technologies underlying web applications. Topics include: scripting and functional languages, language-based virtual machines, database query languages, remote procedure calls over the Internet, and performance and security concerns in modern distributed applications.
+Precludes additional credit for COMP 2005 (no longer offered), COMP 2006 (no longer offered), COMP 2405 (no longer offered).Prerequisite(s): one of COMP 1006, COMP 1406, SYSC 2004, with a minimum grade of C-.Lectures three hours a week and tutorial one and a half hours a week.
+
+COMP 2501 [0.5 credit]
+Computer Game Design and Development
+Topics may include: user interaction in multiplayer games, representation of animated scenes, tools for game character development, special effects,  sound programming, game AI,  motion planning and control, collision detection and physics, digital rights management.
+Prerequisite(s): MATH 1104, COMP 1501, one of COMP 1406, COMP 1006 or SYSC 2004, and one of COMP 2401, or SYSC 2006.Lectures three hours a week, tutorial one and a half hours a week.
+
+COMP 2601 [0.5 credit]
+Mobile Applications
+Development of applications for mobile environments taking advantage of gesture-based input and using location and presence services. Topics include introduction to low-level network services and mobile platforms, description of architectural patterns, principles of mobile development and interaction styles for network service usage.
+Prerequisite(s): COMP 1601.Lecture/lab four hours a week.
+
+COMP 2804 [0.5 credit]
+Discrete Structures II
+A second course in discrete mathematics and discrete structures. Topics include: counting, sequences and sums, discrete probability, basic statistics, recurrence relations, randomized algorithms. Material is illustrated through examples from computing.
+Prerequisite(s): COMP 1805 or MATH 1800.Lectures three hours a week.
+
+COMP 2807 [0.5 credit]
+Fundamentals of Mobile Robot Programming
+A continuation of COMP 1807, this course will focus on data uncertainty and various timing issues inherent to the field of mobile robot programming. Topics may include position estimation, forward/inverse kinematics, navigation, data-logging, mapping and robot-computer interaction through wireless communication.
+Prerequisite(s): COMP 1807.Lab four hours a week.
+
+COMP 3000 [0.5 credit]
+Operating Systems
+Operating system implementation course stressing fundamental issues in design and how they relate to modern computer architectures. Assignments involve the modification and extension of a multitasking operating system.
+Precludes additional credit for SYSC 3001 (no longer offered), SYSC 4001.Prerequisite(s): one of COMP 2402, SYSC 2100, and one of COMP 2401, SYSC 2006.Lectures three hours a week.
+
+COMP 3002 [0.5 credit]
+Compiler Construction
+The structure, organization and design of the phases of a compiler are considered: lexical translators, syntactical translators, scope handlers, type checkers, code generators and optimizers. Components of a compiler will be implemented.
+Prerequisite(s): one of COMP 2402, SYSC 2100.Lectures three hours a week.
+
+COMP 3004 [0.5 credit]
+Object-Oriented Software Engineering
+Theory and development software systems. Computer ethics. Possible topics include: software development processes, requirement specification, class and scenario modeling, state modeling, UML, design patterns, traceability. Students are to complete a team project using a CASE tool.
+Precludes additional credit for SYSC 3020, SYSC 3100 (no longer offered), SYSC 3120, SYSC 4120, SYSC 4800 (no longer offered).Prerequisite(s): one of COMP 2404, SYSC 3010, SYSC 3110.Lectures three hours a week.
+
+COMP 3005 [0.5 credit]
+Database Management Systems
+Introduces students to concepts of database management systems, database design and file structures. Topics include: entity-relationship modeling and object oriented database design, data models (relational, network and object oriented), the relational algebra, SQL, normalization theory, physical data organization, object oriented databases and OQL.
+Precludes additional credit for BUSI 3400.Prerequisite(s): COMP 2402, or both of SYSC 2004 and SYSC 2100.Lectures three hours a week.
+
+COMP 3007 [0.5 credit]
+Programming Paradigms
+An introduction to alternative programming paradigms such as functional, constraint-based, concurrent, and logic programming.
+Precludes additional credit for SYSC 3101.Prerequisite(s): COMP 2402, or both of SYSC 2004 and SYSC 2100.Lectures three hours a week.
+
+COMP 3008 [0.5 credit]
+Human-Computer Interaction
+Fundamentals of the underlying theories, design principles, development and evaluation practices of human-computer interaction (HCI). Topics may include: theories of interaction, user interface frameworks, desktop, web, mobile, and immersive applications, usability inspection and testing methods, and qualitative and quantitative approaches to HCI research.
+Prerequisite(s): one of COMP 2404, SYSC 3010, SYSC 3110 and COMP 2406.Lectures three hours a week.
+
+COMP 3009 [0.5 credit]
+Computer Graphics
+An overview of computer graphics covering rendering, modeling, and animation. Topics include geometric primitives and modeling; image formation algorithms such as ray tracing and the Z-buffer; lighting, shading, and texture; and introduction to physics-based animation and character animation.
+Prerequisite(s): COMP 2401, COMP 2402, MATH 1007, and MATH 1104.Lectures three hours a week.
+
+COMP 3203 [0.5 credit]
+Principles of Computer Networks
+This is an introductory course to the field of Network Computing. Topics include: Protocol Architectures and Internetworking, Types of Networks, Communication Protocols, End-System and Network Traffic Management, Structure of Routing and Congestion Control.
+Precludes additional credit for SYSC 4602.Prerequisite(s): one of COMP 2402, SYSC 2100, and one of COMP 2401, SYSC 2006.Lectures three hours a week.
+
+COMP 3301 [0.5 credit]
+Technical Writing for Computer Science
+Technical communication for computer science majors, concentrating on writing scientific papers and technical reports. Principles of clarity and precision in writing and communication. Practical exercises and readings from recent technical publications will be used.
+Lectures three hours a week.
+
+COMP 3308 [0.5 credit]
+Bioinformatics
+This practical interdisciplinary course will provide a broad overview of bioinformatics in which computer science and mathematics are applied to solve problems in molecular biology. Topics include gene prediction, sequence alignment, phylogeny, molecular interactions, macromolecular structure prediction and biological databases.
+Also listed as BIOC 3008.Prerequisite(s): BIOC 2200 or BIOL 2200, or permission of the Biochemistry Institute.5 hours a week, computer workshop three hours a week.
+
+COMP 3400 [0.5 credit]
+Computational Logic and Automated Reasoning
+Applications of formal logic in computer science. Symbolic logics such as classical predicate calculus are used to represent domain knowledge, to model computational problems and to solve them by means of automated reasoners. Applications include artificial intelligence, software engineering, data management and hardware verification.
+Prerequisite(s): COMP/MATH 1805 or MATH 1800.Lectures three hours a week.
+
+COMP 3501 [0.5 credit]
+Foundations of Game Programming and Computer Graphics
+Mathematical concepts of 3D engines. Topics may include: illumination and visibility determination; quaternions; homogeneous coordinates; transforms; ray tracing; bump mapping; portal systems; polygonal techniques; shadows; and linear and rotational physics.
+Prerequisite(s): one of COMP 2402, SYSC 2100, and one of COMP 2404, SYSC 3010, SYSC 3110, and COMP 2501.Lectures three hours a week.
+
+COMP 3601 [0.5 credit]
+Social Networking
+Introduction to virtual communities, overlay networks and social networking. Topics include architectural principles for heterogeneous social networking platforms, trust and reputation as social concepts, agent-based computing, and extraction of trends and patterns from information exchanged between community members.
+Prerequisite(s): COMP 2601, or one of COMP 2404, SYSC 3010, SYSC 3110, and COMP 2406.Lecture/lab four hours a week.
+
+COMP 3801 [0.5 credit]
+Algorithms for Modern Data Sets
+Algorithm design techniques for modern data sets arising in, for example, data mining, web analytics, epidemic spreads, search engines and social networks. Topics may include streaming, memory hierarchy aware, game theoretic, parallel, distributed, cloud-based, and probabilistic algorithms.
+Prerequisite(s): COMP 2804 with a minimum grade of B+.Lecture three hours a week.
+
+COMP 3802 [0.5 credit]
+Computational Geometry
+An introduction to computational geometry focusing on applications to autonomous mobile robots. Topics may include planning, probabilistic roadmaps, search strategies, coverage algorithms, watchman routes, vision-based landmark identification and multi-robot applications.
+Prerequisite(s): COMP 2804 and one of COMP 2402 or SYSC 2100.Lectures three hours a week.
+
+COMP 3803 [0.5 credit]
+Introduction to Theory of Computation
+Theoretical aspects of computer science. Topics include: formal languages and automata theory, computability theory.
+Precludes additional credit for COMP 2805 (no longer offered).Prerequisite(s): COMP 2804.Lectures three hours a week.
+
+COMP 3804 [0.5 credit]
+Design and Analysis of Algorithms I
+An introduction to the design and analysis of algorithms. Topics include: divide-and-conquer, dynamic programming, linear programming, greedy algorithms, graph algorithms, NP-completeness.
+Also listed as MATH 3804.Prerequisite(s): one of COMP 2402 or SYSC 2100, and either COMP 2804 or both of MATH 2007 and MATH 2108 or equivalents.Lectures three hours a week.
+
+COMP 3805 [0.5 credit]
+Discrete Structures and Applications (Honours)
+Enumeration: inclusion and exclusion, recurrence relations, generating functions and applications. Graph theory: connectivity, planarity, Hamilton paths and Euler trails. Error-correcting codes. Designs and finite geometries. Symmetry and counting.
+Also listed as MATH 3855.Precludes additional credit for MATH 3805 (no longer offered) and MATH 3825.Prerequisite(s): MATH 2100 or a grade of B or higher in  MATH 2108 or MATH 3101.Lectures three hours a week and one hour tutorial.
+
+COMP 3806 [0.5 credit]
+Numerical Analysis
+Elementary discussion of error, polynomial interpolation, quadrature, linear systems of equations and matrix inversion, non-linear equations, difference equations and ordinary differential equations.
+Also listed as MATH 3806.Prerequisite(s): i) MATH 1002, MATH 1005 or MATH 2007; and ii) MATH 1102 or MATH 2107; and (iii) knowledge of a computer language.Lectures three hours a week and one hour tutorial.
+
+COMP 3807 [0.5 credit]
+Mathematical Software
+Incorporation of basic numerical methods into efficient, reliable software. The course includes examination of existing software systems, e.g. linear systems, non-linear systems, optimization, or differential equations.
+Also listed as MATH 3807.Prerequisite(s): COMP 3806.
+
+COMP 3999 [0.0 credit]
+Co-operative Work Term
+ 
+
+COMP 4000 [0.5 credit]
+Distributed Operating Systems
+An advanced course emphasizing the principles of distributed operating systems including networking protocols, distributed file systems, remote IPC mechanisms, graphical user interfaces, load balancing, and process migration. Case studies include current "standards" as well as novel systems under development.
+Prerequisite(s): one of COMP 3203 or SYSC 4602, and one of COMP 3000 or SYSC 4001.Lectures three hours a week.
+
+COMP 4001 [0.5 credit]
+Distributed Computing
+Overview of distributed computing. Topics include: computational models, communication complexity, design and analysis of distributed algorithms and protocols, fault-tolerant protocols, synchronous computations. Applications may include: communication in data networks, control in distributed system (e.g., election, distributed mutual exclusion), manipulation of distributed data (e.g., ranking).
+Prerequisite(s): COMP 1805, COMP 2401 and COMP 2406.Lectures three hours a week.
+
+COMP 4002 [0.5 credit]
+Real-Time 3D Game Engines
+The design and implementation of game engines for real-time 3D games including topics such as camera control, environmental effects, articulated models, terrain, vegetation, collision detection, particles, emitters, triggers, portals, waypoints, mirrors, and shadows.
+Prerequisite(s): one of COMP 2404, SYSC 3010, SYSC 3110.Lectures three hours a week.
+
+COMP 4003 [0.5 credit]
+Transaction Processing Systems
+Concepts and architectures of transaction processing systems and on-line transaction processing, with emphasis on data integration systems. Transaction properties and models, embedded-SQL, active rules, consistency maintenance, serializability, concurrency control, recovery, data integration systems and federated databases, introduction to transactions in web services and workflow systems.
+Prerequisite(s): COMP 3005 and one of COMP 2404, SYSC 3010, SYSC 3110.Lectures three hours a week.
+
+COMP 4004 [0.5 credit]
+Software Quality Assurance
+Introduction to the theory and practice of Software Quality Assurance. Topics include: functional requirements analysis, system requirement analysis, verification and validation, traceability, white box testing, integration testing, object-oriented testing, tools, and management issues.
+Precludes additional credit for SYSC 4101.Prerequisite(s): COMP 3004.Lectures three hours a week.
+
+COMP 4009 [0.5 credit]
+Programming for Clusters and Multi-Core Processors
+Introduction to parallel architectures, programming languages and algorithms for processor clusters and multi-core processors. Distributed memory architectures, cluster computing, message passing parallel programming, multi-core processors, shared memory parallel programming, use of thread libraries, parallel performance analysis.
+Prerequisite(s): COMP 2804, and one of COMP 2402, SYSC 2100, and one of COMP 2404, SYSC 3010, SYSC 3110.Lectures three hours a week.
+
+COMP 4102 [0.5 credit]
+Computer Vision
+The basic ideas and techniques of computer vision. The central theme is reconstructing 3D models from 2D images. Topics include: image formation, image feature extraction, camera models, camera calibration, structure from motion, stereo, recognition, augmented reality, image searching.
+Prerequisite(s): one of MATH 1104 or MATH 1107, and one of COMP 2404, SYSC 3010, SYSC 3110.Lectures three hours a week.
+
+COMP 4104 [0.5 credit]
+Principles and Practice of Distributed Programming
+Advanced course on distributed programming in Java. Introduces students to standard design patterns for implementing components that solve common distributed programming challenges in Java. Topics covered include: threads, message passing, coordination, distributed object technology, web-based services, and collaborative applications.
+Prerequisite(s): COMP 3004 and COMP 2406.Lectures three hours a week.
+
+COMP 4106 [0.5 credit]
+Artificial Intelligence
+Several areas in knowledge-based systems are covered, including recent approaches to machine learning and data mining, inference methods, knowledge-based and fuzzy systems, heuristic search, and natural language processing.
+Prerequisite(s): one of COMP 2404, SYSC 3010, SYSC 3110 and one of COMP 2402, SYSC 2100.Lectures three hours a week.
+
+COMP 4107 [0.5 credit]
+Biologically-Inspired Computing
+Introduction to the theory and application of naturally-occurring systems for the purpose of creating computer algorithms. Topics from evolutionary computing, swarm intelligence, neural networks and artificial immune systems will be studied.
+Prerequisite(s): COMP 3007 or SYSC 3101.Lectures three hours a week.
+
+COMP 4108 [0.5 credit]
+Computer Systems Security
+Introduction to information security in computer and communications systems, including network, operating systems, web and software security; Passwords, authentication applications, privacy, data integrity, anonymity, secure email, IP security, security infrastructures, firewalls, viruses, intrusion detection, network attacks.
+Prerequisite(s): one of COMP 3203 or SYSC 4602, and one of COMP 3000, SYSC 3001, SYSC 4001.Lectures three hours a week.
+
+COMP 4109 [0.5 credit]
+Applied Cryptography
+Practical aspects of cryptography. Pseudo random number generation, symmetric cryptography (stream and block ciphers), modes of operation, hash functions, message and entity authentication protocols, zero knowledge, pitfalls deploying public-key encryption and digital signatures, key distribution, secret-sharing.
+Prerequisite(s): one of COMP 2402, SYSC 2100, and a MATH course at the 2000-level or above.Lectures three hours a week.
+
+COMP 4111 [0.5 credit]
+Data Management for Business Intelligence
+Application of computational techniques to support business activities, such as decision making, business understanding, data analysis, business process automation, learning from data, producing and using data-centric business models, ontology-based data access and integration, data quality assessment and cleaning and use of contextual data.
+Prerequisite(s): COMP 3005.Also offered at the graduate level, with different requirements, as COMP 5111, for which additional credit is precluded.Lectures three hours a week.
+
+COMP 4203 [0.5 credit]
+Wireless Networks and Security
+An introduction to wireless networks covering both networking issues and security aspects of modern wireless environments. Fundamentals of mobile LANs, ad hoc, sensor networks, secure routing, searching, clustering, multicasting, localization, mobile IP/TCP, confidentiality, key establishment, authentication, broadcasting, RFIDs, and rogue attacks.
+Prerequisite(s): COMP 3203 or SYSC 4602.Lectures three hours a week.
+
+COMP 4300 [0.5 credit]
+Computational Molecular Biology
+Fundamental mathematical and algorithmic concepts underlying molecular computational biology; physical and genetic mapping, sequence analysis (including alignment and probabilistic models), genomic rearrangements, phylogenetic inference, computational proteomics and systemic modeling of the whole cell.
+Prerequisite(s): COMP 3804 or equivalent.
+
+COMP 4308 [0.5 credit]
+Computational Systems Biology
+Modeling and simulation of metabolic and regulatory networks towards understanding complex and highly dynamic cellular systems. Biotechnological applications include metabolic engineering, synthetic biology, and drug discovery.
+Also listed as BIOC 4008.Prerequisite(s): BIOC 3101 or permission of the Biochemistry Institute.Lecture one and a half hours per week, workshop one and a half hours per week.
+
+COMP 4501 [0.5 credit]
+Advanced Computer Game Design and Development
+Selected computer game topics including: networked games; online games; high performance computing for game development; high resolution scenes; massively multiplayer online games (MMOG); advanced character development; facial modeling and animation; the computer games marketplace and business models.
+Prerequisite(s): COMP 3501.Lectures three hours a week.
+
+COMP 4601 [0.5 credit]
+Mobile Multimedia
+Introduction to the creation, delivery and playback of multimedia over high-speed wireless networks on mobile devices. Topics include human computer interaction, standards, interaction with networking aspects, security, video streaming, gaming, navigation and context aware services, and immersive communications in virtual environments.
+Prerequisite(s): COMP 2601, or one of COMP 2404, SYSC 3010, SYSC 3110, and COMP 2406.Lecture/lab four hours a week.
+
+COMP 4803 [0.5 credit]
+Computable Functions
+Recursive functions and computability, algorithms, Church's thesis, Turing machines, computational logic, NP-completeness.
+Also listed as MATH 4803.Prerequisite(s): MATH 2100 or COMP 3805 or permission of the School.
+
+COMP 4804 [0.5 credit]
+Design and Analysis of Algorithms II
+A second course on the design and analysis of algorithms. Topics include: advanced recurrence relations, algebraic complexity, advanced graph algorithms, amortized analysis, algorithms for NP-complete problems, randomized algorithms.
+Prerequisite(s): COMP 3804 or permission of the School.Lectures three hours a week.
+
+COMP 4805 [0.5 credit]
+Theory of Automata
+Finite automata and regular expressions, properties of regular sets, context-free grammars, pushdown automata, deterministic context-free languages. Turing machines, the Chomsky hierarchy. Undecidability, intractable problems.
+Also listed as MATH 4805.Precludes additional credit for MATH 5605.Prerequisite(s): COMP 3805 or MATH 3106 or MATH 3158 (or MATH 3100) or permission of the School.Lectures three hours a week.
+
+COMP 4806 [0.5 credit]
+Numerical Linear Algebra
+Study of matrix inversion techniques; techniques of finding eigenvalues and eigenvectors, solution of systems of linear equations; direct and indirect methods, their comparison and error analysis; applications in optimization and other areas.
+Also listed as MATH 4806.Prerequisite(s): MATH 1102 or MATH 2107; and MATH 2000 or MATH 3009, or permission of the School.Lectures three hours a week.
+
+COMP 4900 [0.5 credit]
+Advanced Topics in Computer Science
+Selected topics in Computer Science offered by members of the School of Computer Science.
+Prerequisite(s): permission of the School of Computer Science.Lectures three hours a week.
+
+COMP 4901 [0.5 credit]
+Directed Studies
+A course of independent study under the supervision of a member of the School of Computer Science, open only to students in the B.C.S. program. Students are required to obtain their supervisor's written approval prior to registration and are limited to two such courses in their programs.
+Prerequisite(s): permission of the School of Computer Science.
+
+COMP 4905 [0.5 credit]
+Honours Project
+Under the supervision of a faculty member, Honours students complete a major Computer Science project in fourth year. Permission to register is granted once an approved project proposal is submitted to the Department. See deadlines and details on the School web site.
+Prerequisite(s): registration in the B.C.S. Honours program or one of the Combined Computer Science Honours programs and permission of the School of Computer Science.
+
+
+Summer session: some of the courses listed in this   Calendar are offered during the summer. Hours and scheduling for summer   session courses will differ significantly from those reported in the   fall/winter Calendar. To determine the scheduling and hours for summer   session classes, consult the class schedule at central.carleton.ca Not  all courses listed are offered in a  given year. For an up-to-date  statement of course offerings for the  current session and to determine  the term of offering, consult the  class schedule at central.carleton.ca  
+
+
+January 22, 2016 04:57 PM
+
+
+
+
+
+
+
+© 2015-2016 Carleton University
+1125 Colonel By Drive, Ottawa, ON, Canada K1S 5B6
+Privacy Policy
+
+
+
+
