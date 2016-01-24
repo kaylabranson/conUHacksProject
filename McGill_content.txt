@@ -1,0 +1,4426 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+    <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]> <html class="no-js"> <![endif]-->
+
+    <head>
+        
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>McGill School Of Computer Science</title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="shortcut icon" type="image/gif" href="/static/img/favicon.ico"/>
+
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous"> -->
+
+<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<link href="/static/bootstrap3_datetime/css/bootstrap-datetimepicker.min.css" type="text/css" media="all"
+      rel="stylesheet"/>
+<!-- <link rel="stylesheet" href="/static/css/MyFontsWebfontsKit.css"> -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="/static/css/main.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+
+<script src="/static/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="/static/bootstrap3_datetime/js/moment.min.js"></script>
+<script src="/static/bootstrap3_datetime/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/static/js/main.js"></script>
+
+<script>tinymce_init()</script>
+<!--  -->
+<!--[if gte IE 9]>
+     <style type="text/css">
+     .gradient {
+     filter: none;
+     }
+              </style>
+            <![endif]-->
+<!--[if lt IE 8]>
+            <style>
+            .ch-info div { position: absolute; top:50%;}
+            .ch-info div p {position: relative; top: -50%}
+            </style>
+            <![endif]–-> -->
+
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+             <![endif]-->
+
+        <!--suppress ALL -->
+
+        <div id="page-container">
+            
+            <div id="top-red-bar"></div>
+
+            <div id="header-container">
+                <div class="container">
+                    
+
+<div class="hidden-xs hidden-sm" style="float:right;padding-right:25px;padding-top:20px">
+    <form class="form-inline" role="form" action="/search/">
+        <div class="form-group">
+            <input id="search_cs" class="form-control search_box" placeholder="Search" name="q"
+                   value="">
+        </div>
+        <button type="submit" class="btn btn-default search_button"><span class="glyphicon glyphicon-search"
+                                                                          style="color:#444"></span>
+        </button>
+    </form>
+</div>
+
+<div class="visible-xs visible-sm mobile_search" align="center">
+    <form class="form-horizontal" role="form" action="/search/">
+        <div class="form-group">
+           <div class="col-sm-11 col-xs-11" style="padding-right:0;">
+               <input id="search_cs" class="form-control search_box"
+                placeholder="Search" name="q" value="">
+           </div>
+           <div class="col-sm-1 col-xs-1" style="padding-left:0;">
+               <button type="submit" class="btn btn-default search_button mobile_search_button">
+                   <span class="glyphicon glyphicon-search" style="color:#444"></span>
+               </button>
+           </div>
+        </div>
+    </form>
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+        <a href="/"><img id="cslogo" src="/static/img/logo/logo_white.png"/></a>
+    </div>
+    
+    <div class="col-md-5 hidden-lg hidden-md" style=" text-align: center;">
+        <a href="/"><img id="cslogo" src="/static/img/logo/logo_white.png"/></a>
+    </div>
+
+    <div class="col-lg-8 col-md-8 hidden-sm hidden-xs"
+         style="padding-right:0;padding-left:0;padding-top:0px;padding-bottom:15px;min-width:600px">
+        <div style="float:right">
+            <ul class="nav nav-pills pull-right mainMenu">
+                <li class="dropdown">
+                    
+                        <a href="/prospective/whyCS">Prospective</a>
+                    
+                    <ul class="dropdown-menu" id="prospectiveMenu">
+                        <li><a href="/prospective/aboutMcGill">General Info</a></li>
+                        <li><a href="/prospective/whyCS">Why CS?</a></li>
+                        <li><a href="/prospective/cegep">CEGEP</a></li>
+                        <li><a href="/prospective/freshman">Freshman</a></li>
+                        <li><a href="/prospective/choosing-a-major">Choosing a Major</a></li>
+                        <li><a href="/prospective/transfer">Transfer</a></li>
+                        <li><a href="/prospective/internship">Internship</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Admission</li>
+                        <li><a href="/prospective/applying">Undergraduate</a></li>
+                        <li><a href="/academic/graduate/admission">Graduate</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    
+                        <a href="/academic/undergrad/program" class="nav-active">Academic</a>
+                    
+                    <ul class="dropdown-menu" id="academicMenu">
+                        <li><a href="/academic/undergrad/program">Undergraduate</a></li>
+                        <li><a href="/academic/graduate/overview">Graduate</a></li>
+                        <li><a href="/academic/courses">Courses</a></li>
+                        <li><a href="/academic/funding/overview">Funding</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    
+                        <a href="/research/areas">Research</a>
+                    
+                    <ul class="dropdown-menu" id="researchMenu">
+                        <li><a href="/research/areas">Areas</a></li>
+                        <li><a href="/research/labs">Labs</a></li>
+                        <li><a href="/research/tech_reports/">Tech Reports</a></li>
+                        <li><a href="/research/publications/">Publications</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    
+                        <a href="/people/faculty">People</a>
+                    
+                    <ul class="dropdown-menu" id="peopleMenu">
+                        <li><a href="/people/faculty">Faculty</a></li>
+                        <li><a href="/people/staff">Staff</a></li>
+                        <li><a href="/people/community">Community</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    
+                        <a href="/news">News</a>
+                    
+                    <ul class="dropdown-menu" id="announcementsMenu">
+                        <li><a href="/news/academic_position">Academic Positions</a></li>
+                        <li><a href="/news/achievements">Achievements</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Events</li>
+                        <li><a href="/news/colloquium">Colloquia</a></li>
+                        <li><a href="/news/seminar">Seminars</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Notices</li>
+                        <li><a href="/news/alert">Alerts</a></li>
+                        <li><a href="/news/job_posting">Job Postings</a></li>
+                        <li><a href="/news/research_posting">Research Postings</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    
+                        <a href="/about/contacts">About</a>
+                    
+                    <ul class="dropdown-menu pull-right-menu" id="contactsMenu">
+
+                        <li><a href="/about/contacts">Contacts</a></li>
+                        <li><a href="/about/facilities">Facilities</a></li>
+                        <li><a href="/about/hiring">Academic Positions</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Quick Links</li>
+                        <li><a href="/forms/visitor">Visitor Form</a></li>
+                        <li><a href="http://reservations.cs.mcgill.ca/" target="_blank">Room Reservation</a>
+                        </li>
+                        <li><a href="http://mail.cs.mcgill.ca/" target="_blank">Webmail</a></li>
+                        <li><a href="http://old.cs.mcgill.ca/" target="_blank">Old Website</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Add Content</li>
+                        <li><a href="/forms">Internal</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Docs</li>
+                        <li><a href="http://old.cs.mcgill.ca/internal/bulletin-board/index" target="_blank">Admin
+                            Info</a></li>
+                        <li><a href="/docs">Tech Support</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hidden-md hidden-lg visible-sm hidden-xs"
+         style="margin:0 auto; padding:0;padding-left:13px;width:600px;">
+        <!-- <div class="hidden-md hidden-lg hidden-sm hidden-xs" style="margin:0 auto; padding:0;padding-left:13px;width:600px;"> -->
+        <ul class="nav nav-pills n2 mainMenu" style="margin:10px 0;">
+            <li class="dropdown">
+                
+                    <a href="/prospective/whyCS">Prospective</a>
+                
+                <ul class="dropdown-menu" id="prospectiveMenu">
+                    <li><a href="/prospective/aboutMcGill">General Info</a></li>
+                    <li><a href="/prospective/whyCS">Why CS?</a></li>
+                    <li><a href="/prospective/cegep">CEGEP</a></li>
+                    <li><a href="/prospective/freshman">Freshman</a></li>
+                    <li><a href="/prospective/choosing-a-major">Choosing a Major</a></li>
+                    <li><a href="/prospective/transfer">Transfer</a></li>
+                    <li><a href="/prospective/internship">Internship</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation" class="dropdown-header">Admission</li>
+                    <li><a href="/prospective/applying">Undergraduate</a></li>
+                    <li><a href="/academic/graduate/admission">Graduate</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                
+                    <a href="/academic/undergrad/program" class="nav-active">Academic</a>
+                
+                <ul class="dropdown-menu" id="academicMenu">
+                    <li><a href="/academic/undergrad/program">Undergraduate</a></li>
+                    <li><a href="/academic/graduate/overview">Graduate</a></li>
+                    <li><a href="/academic/courses">Courses</a></li>
+                    <li><a href="/academic/funding/overview">Funding</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                
+                    <a href="/research/areas">Research</a>
+                
+                <ul class="dropdown-menu" id="researchMenu">
+                    <li><a href="/research/areas">Areas</a></li>
+                    <li><a href="/research/labs">Labs</a></li>
+                    <li><a href="/research/tech_reports/">Tech Reports</a></li>
+                    <li><a href="/research/publications/">Publications</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                
+                    <a href="/people/faculty">People</a>
+                
+                <ul class="dropdown-menu" id="peopleMenu">
+                    <li><a href="/people/faculty">Faculty</a></li>
+                    <li><a href="/people/staff">Staff</a></li>
+                    <li><a href="/people/community">Community</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                
+                    <a href="/news">News</a>
+                
+                <ul class="dropdown-menu" id="announcementsMenu">
+                    <li><a href="/news/academic_position">Academic Positions</a></li>
+                    <li><a href="/news/achievements">Achievements</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation" class="dropdown-header">Events</li>
+                    <li><a href="/news/colloquium">Colloquia</a></li>
+                    <li><a href="/news/seminar">Seminars</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation" class="dropdown-header">Notices</li>
+                    <li><a href="/news/alert">Alerts</a></li>
+                    <li><a href="/news/job_posting">Job Postings</a></li>
+                    <li><a href="/news/research_posting">Research Postings</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                
+                    <a href="/about/contacts">About</a>
+                
+                <ul class="dropdown-menu pull-right-menu" id="contactsMenu">
+
+                    <li><a href="/about/contacts">Contacts</a></li>
+                    <li><a href="/about/facilities">Facilities</a></li>
+                    <li><a href="/about/hiring">Academic Positions</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation" class="dropdown-header">Quick Links</li>
+                    <li><a href="/forms/visitor">Visitor Form</a></li>
+                    <li><a href="http://reservations.cs.mcgill.ca/" target="_blank">Room Reservation</a>
+                    </li>
+                    <li><a href="http://mail.cs.mcgill.ca/" target="_blank">Webmail</a></li>
+                    <li><a href="http://old.cs.mcgill.ca/" target="_blank">Old Website</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation" class="dropdown-header">Add Content</li>
+                    <li><a href="/forms">Internal</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation" class="dropdown-header">Docs</li>
+                    <li><a href="http://old.cs.mcgill.ca/internal/bulletin-board/index" target="_blank">Admin
+                        Info</a></li>
+                    <li><a href="/docs">Tech Support</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="smalltopnav" class="col-sm-12 col-sx-12 visible-xs" style="margin:0 auto; text-align: center;">
+        <ul class="nav nav-tabs mainMenu mobileMenu" style="margin:10px 0;">
+            <li>
+                <a href="/prospective/aboutMcGill">
+                    <button type="button" class="btn btn-primary navthumb"><span
+                            class="glyphicon glyphicon glyphicon-road"></span>Prospective
+                    </button>
+                </a>
+            </li>
+
+            <li>
+                <a href="/academic/undergrad/program">
+                    <button type="button" class="btn btn-primary navthumb"><span
+                            class="glyphicon glyphicon-book"></span>Academic
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="/research/areas">
+                    <button type="button" class="btn btn-primary navthumb"><span
+                            class="glyphicon glyphicon-briefcase"></span>Research
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="/people/faculty">
+                    <button type="button" class="btn btn-primary navthumb"><span
+                            class="glyphicon glyphicon-user"></span>People
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="/news">
+                    <button type="button" class="btn btn-primary navthumb"><span
+                            class="glyphicon glyphicon-bullhorn"></span>News
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="/about/contacts">
+                    <button type="button" class="btn btn-primary navthumb"><span
+                            class="glyphicon glyphicon-link"></span>About
+                    </button>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+            
+            <div id="content-container">
+                <div  class="container">
+                    
+
+<div class="row">
+  <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+      <div id="sidebar">
+	<div id="widget" class="sticky">
+		<div class="panel-group sidebar hidden-xs" id="accordion">
+
+			
+			<div class="panel">
+				<a class="list-group-item outer" data-parent="#accordion" href="/academic/undergrad/program">Undergraduate</a>
+			</div>
+			
+
+			
+			<div class="panel">
+				<a class="list-group-item outer" data-parent="#accordion" href="/academic/graduate/overview">Graduate</a>
+			</div>
+			
+
+			
+			<div class="panel">
+				<a class="list-group-item sidebar-active outer accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Courses</a>
+				<div id="collapse4" class="panel-collapse collapse in">
+					
+					<a class="list-group-item inner" href="/academic/courses/#undergradCourses">Undergraduate</a>
+					
+
+					
+					<a class="list-group-item inner" href="/academic/courses/#gradCourses">Graduate</a>
+					
+
+					
+					<a class="list-group-item inner" href="/academic/courses/#unavailableCourses">Currently unavailable</a>
+					
+
+				</div> 
+			</div>
+			
+
+			
+			<div class="panel">
+				<a class="list-group-item outer" data-parent="#accordion" href="/academic/funding/overview">Funding</a>
+			</div>
+			
+			<div id="toTop">
+				<a href="#topMenu">Back to Top</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="panel-group visible-xs" id="accordion1">
+	   <div class="panel">
+
+		   <ul class="list-group">
+			
+				<a class="list-group-item outer" data-parent="#accordion" href="/academic/undergrad/program">Undergraduate</a>
+			
+		   </ul>
+		   
+		   <ul class="list-group">
+			
+				<a class="list-group-item outer" data-parent="#accordion" href="/academic/graduate/overview">Graduate</a>
+			
+		   </ul>
+		   
+		   <ul class="list-group">
+			
+				<a class="list-group-item sidebar-active outer accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Courses</a>
+				<div id="collapse4" class="panel-collapse collapse in">
+					
+					<a class="list-group-item inner" href="/academic/courses/#undergradCourses">Undergraduate</a>
+					
+
+					
+					<a class="list-group-item inner" href="/academic/courses/#gradCourses">Graduate</a>
+					
+
+					
+					<a class="list-group-item inner" href="/academic/courses/#unavailableCourses">Currently unavailable</a>
+					
+
+				</div> 
+			
+		   </ul>
+		   
+		   <ul class="list-group">
+			
+				<a class="list-group-item outer" data-parent="#accordion" href="/academic/funding/overview">Funding</a>
+			
+		   </ul>
+
+	   </div>
+	</div>
+</div>
+
+  </div>
+
+  <div class="col-md-10 col-lg-10 col-sm-10 col-xs-12" style="border-radius:20px;">
+    <div class="panel panel-default" style="margin-top:25px;">
+        <div id="undergradCourses" class="panel-body">
+          <h4 class="programtitle">Courses offered in 2016-2017</h4>
+          <table class="table table-responsive table-hover table-condensed">
+            <tbody>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP102"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_102">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 102</span> &nbsp;&nbsp;  Computers and Computing </p></a>
+                  <div id="COMP_102" class="panel-collapse collapse out courses">
+      <br>            
+          <p>A course for students with no previous knowledge of computer science. The impact of computers on society.  Web design and dynamic content. The inner workings of computers (hardware).  Networking principles. Algorithm design and programming. A look at how computers store data (image, sound, and video). Software distribution policies and mechanisms. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>high school level mathematics course on functions. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Brigitte Pientka 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-102" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP202"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_202">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 202</span> &nbsp;&nbsp;  Foundations of Programming </p></a>
+                  <div id="COMP_202" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Introduction to programming in a modern high-level language, modular software design and debugging. Programming concepts are illustrated using a variety of application areas. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>a CEGEP level mathematics course </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Jackie Chi Kit Cheung 
+                    , 
+                     Yang Cai 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Mike Hallett 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-202" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP206"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_206">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 206</span> &nbsp;&nbsp;  Introduction to Software Systems </p></a>
+                  <div id="COMP_206" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Comprehensive overview of programming in C, use of system calls and libraries, debugging and testing of code; use of developmental tools like make, version control systems. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 202 or COMP 250 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> David Meger 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Joseph Vybihal 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-206" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP208"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_208">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 208</span> &nbsp;&nbsp;  Computers in Engineering </p></a>
+                  <div id="COMP_208" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Introduction to computer systems. Concepts and structures for high level programming. Elements of structured programming using FORTRAN 90 and C. Numerical algorithms such as root finding, numerical integration and differential equations. Non-numerical algorithms for sorting and searching. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>differential and integral calculus. </p>
+      
+        
+          
+           <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Corequisite</h4>
+             <p>linear algebra: determinants, vectors, matrix operations. </p>
+      
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Nathan Friedman 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Nathan Friedman 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-208" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP230"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_230">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 230</span> &nbsp;&nbsp;  Logic and Computability </p></a>
+                  <div id="COMP_230" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Propositional Logic, predicate calculus, proof systems, computability Turing machines, Church-Turing thesis, unsolvable problems, completeness, incompleteness, Tarski semantics, uses and misuses of Gödel&#39;s theorem. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>CEGEP level mathematics. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Dirk Schlimm 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-230" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP250"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_250">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 250</span> &nbsp;&nbsp;  Introduction to Computer Science </p></a>
+                  <div id="COMP_250" class="panel-collapse collapse out courses">
+      <br>            
+          <p>An introduction to the design of computer algorithms, including basic data structures, analysis of algorithms, and establishing correctness of programs. Overview of topics in computer science. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>Familiarity with a high level programming language and CEGEP level Math. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Mathieu Blanchette 
+                    , 
+                     Jerome Waldispuhl 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Claude Crepeau 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-250" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP251"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_251">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 251</span> &nbsp;&nbsp;  Algorithms and Data Structures </p></a>
+                  <div id="COMP_251" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Introduction to algorithm design and analysis. Graph algorithms, greedy algorithms, data structures, dynamic programming, maximum flows. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 250 or COMP 203. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Claude Crepeau 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Adrian Vetta 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-251" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP252"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_252">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 252</span> &nbsp;&nbsp;  Honours Algorithms and Data Structures </p></a>
+                  <div id="COMP_252" class="panel-collapse collapse out courses">
+      <br>            
+          <p>The design and analysis of data structures and algorithms. The description of various computational problems and the algorithms that can be used to solve them, along with their associated data structures. Proving the correctness of algorithms and determining their computational complexity. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 250 and MATH 240 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Luc Devroye 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-252" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP273"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_273">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 273</span> &nbsp;&nbsp;  Introduction to Computer Systems </p></a>
+                  <div id="COMP_273" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Number representations, combinational and sequential digital circuits, MIPS instructions and architecture datapath and control, caches, virtual memory, interrupts and exceptions, pipelining. </p>
+          
+        
+          
+           <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Corequisite</h4>
+             <p>COMP 206. </p>
+      
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Michael Langer 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Paul Kry 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-273" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP302"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_302">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 302</span> &nbsp;&nbsp;  Programming Languages and Paradigms </p></a>
+                  <div id="COMP_302" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Programming language design issues and programming paradigms. Binding and scoping, parameter passing, lambda abstraction, data abstraction, type checking. Functional and logic programming. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 250 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Prakash Panangaden 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Brigitte Pientka 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-302" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP303"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_303">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 303</span> &nbsp;&nbsp;  Software Development </p></a>
+                  <div id="COMP_303" class="panel-collapse collapse out courses">
+      <br>            
+          <p>encapsulation, design patterns, unit testing, etc. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 206, COMP 250. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Joseph Vybihal 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Martin Robillard 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-303" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP307"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_307">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 307</span> &nbsp;&nbsp;  Principles of Web Development </p></a>
+                  <div id="COMP_307" class="panel-collapse collapse out courses">
+      <br>            
+          <p>The course discusses the major principles, algorithms, languages and technologies that underlie web development. Students receive practical hands-on experience through a project. </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Joseph Vybihal 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-307" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP308"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_308">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 308</span> &nbsp;&nbsp;  Computer Systems Lab </p></a>
+                  <div id="COMP_308" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Digital circuitry and programming interface of peripheral circuit boards (cards), e.g., graphics cards; introduction to tools and libraries that interact with the card; performance issues. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 273. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Joseph Vybihal 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-308" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP310"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_310">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 310</span> &nbsp;&nbsp;  Operating Systems </p></a>
+                  <div id="COMP_310" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Control and scheduling of large information processing systems. Operating system software - resource allocation, dispatching, processors, access methods, job control languages, main storage management. Batch processing, multiprogramming, multiprocessing, time sharing. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 273 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Muthucumaru Maheswaran 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Muthucumaru Maheswaran 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-310" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP330"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_330">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 330</span> &nbsp;&nbsp;  Theory of Computation </p></a>
+                  <div id="COMP_330" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Finite automata, regular languages, context-free languages, push-down automata, models of computation, computability theory, undecidability, reduction techniques. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 251 and MATH 240. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Prakash Panangaden 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-330" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP350"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_350">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 350</span> &nbsp;&nbsp;  Numerical Computing </p></a>
+                  <div id="COMP_350" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Computer representation of numbers, IEEE Standard for Floating Point Representation, computer arithmetic and rounding errors. Numerical stability. Matrix computations and software systems. Polynomial interpolation. Least-squares approximation. Iterative methods for solving a nonlinear equation. Discretization methods for integration and differential equations. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>MATH 222 and MATH 223 and one of: COMP 202, COMP 208, COMP 250; or equivalents. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xiao-Wen Chang 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-350" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP360"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_360">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 360</span> &nbsp;&nbsp;  Algorithm Design </p></a>
+                  <div id="COMP_360" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Advanced algorithm design and analysis. Linear programming, complexity and NP-completeness, advanced algorithmic techniques. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>Either COMP 251 or COMP 252, and either MATH 240 or MATH 235 or MATH 363. </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Not open to students who have taken or are taking COMP 362. </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Hamed Hatami 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Hamed Hatami 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-360" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP361D1"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_361D1">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 361D1</span> &nbsp;&nbsp;  Software Engineering Project </p></a>
+                  <div id="COMP_361D1" class="panel-collapse collapse out courses">
+      <br>            
+          <p>requirement elicitation and analysis, software design, implementation, integration, test planning, and maintenance. Application of the core concepts and techniques through the realization of a large software system. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 206, COMP 250 </p>
+      
+        
+          
+           <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Corequisite</h4>
+             <p>COMP 303 </p>
+      
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Not open to students who have taken the 3 credit version of COMP 361. </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Joseph Vybihal 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-361D1" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP361D2"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_361D2">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 361D2</span> &nbsp;&nbsp;  Software Engineering Project </p></a>
+                  <div id="COMP_361D2" class="panel-collapse collapse out courses">
+      <br>            
+          <p>See COMP 361D1 for course description. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 361D1 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Joseph Vybihal 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-361D2" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP362"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_362">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 362</span> &nbsp;&nbsp;  Honours Algorithm Design </p></a>
+                  <div id="COMP_362" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Basic algorithmic techniques, their applications and limitations. Problem complexity, how to deal with problems for which no efficient solutions are known. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 252 </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Not open to students who have taken or are taking COMP 360. </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Bruce Reed 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-362" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP364"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_364">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 364</span> &nbsp;&nbsp;  Computer Tools for Life Sciences </p></a>
+                  <div id="COMP_364" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Concepts and tools for programmatic storage, retrieval, searching, numerical analysis, and visualization of large biological data sets. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>BIOL 200. </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Not available to students in Computer Science or Joint Computer Science programs. </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Mike Hallett 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-364" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP396"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_396">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 396</span> &nbsp;&nbsp;  Undergraduate Research Project </p></a>
+                  <div id="COMP_396" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Independent research project with a final written report. </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Nathan Friedman 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Nathan Friedman 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-396" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP400"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_400">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 400</span> &nbsp;&nbsp;  Honours Project in Computer Science </p></a>
+                  <div id="COMP_400" class="panel-collapse collapse out courses">
+      <br>            
+          <p>A computer related project, typically a programming effort, along with a report will be carried out in cooperation with a staff member in the School of Computer Science. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>15 Computer Science credits. </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>For Honours students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Nathan Friedman 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Nathan Friedman 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-400" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP417"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_417">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 417</span> &nbsp;&nbsp;  Introduction Robotics and Intelligent Systems </p></a>
+                  <div id="COMP_417" class="panel-collapse collapse out courses">
+      <br>            
+          <p>This course considers issues relevant to the design of robotic and of intelligent systems. How can robots move and interact. Robotic hardware systems. Kinematics and inverse kinematics. Sensors, sensor data interpretation and sensor fusion. Path planning. Configuration spaces. Position estimation. Intelligent systems. Spatial mapping. Multi-agent systems. Applications. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 251, MATH 223 and (ECSE 321 or COMP 206). </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Gregory Dudek 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-417" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP421"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_421">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 421</span> &nbsp;&nbsp;  Database Systems </p></a>
+                  <div id="COMP_421" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Database Design: conceptual design of databases (e.g., entity-relationship model), relational data model, functional dependencies. Database Manipulation: relational algebra, SQL, database application programming, triggers, access control. Database Implementation: transactions, concurrency control, recovery, query execution and query optimization. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 206, COMP 251, COMP 302 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Bettina Kemme 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-421" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP424"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_424">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 424</span> &nbsp;&nbsp;  Artificial Intelligence </p></a>
+                  <div id="COMP_424" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Introduction to search methods. Knowledge representation using logic and probability. Planning and decision making under uncertainty. Introduction to machine learning. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>(COMP 206 or ECSE 321), MATH 323 or equivalent and COMP 251. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Joelle Pineau 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-424" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP462"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_462">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 462</span> &nbsp;&nbsp;  Computational Biology Methods </p></a>
+                  <div id="COMP_462" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Application of computer science techniques to problems arising in biology and medicine, techniques for modeling evolution, aligning molecular sequences, predicting structure of a molecule and other problems from computational biology. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 251, and MATH 323 or MATH 203 or BIOL 309 </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Not open to students who have taken COMP 562.  Not open to students who are taking or have taken COMP 561. </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Mathieu Blanchette 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-462" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+      <div id="gradCourses"></div>
+        
+        <a id="COMP512"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_512">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 512</span> &nbsp;&nbsp;  Distributed Systems </p></a>
+                  <div id="COMP_512" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Models and Architectures. Application-oriented communication paradigms (e.g. remote method invocation, group communication). Naming services. Synchronization (e.g. mutual exclusion, concurrency control). Fault-tolerance (e.g. process and replication, agreement protocols). Distributed file systems. Security. Examples of distributed systems (e.g. Web, CORBA). Advanced Topics. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 310, COMP 251 or equivalent. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Bettina Kemme 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-512" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP520"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_520">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 520</span> &nbsp;&nbsp;  Compiler Design </p></a>
+                  <div id="COMP_520" class="panel-collapse collapse out courses">
+      <br>            
+          <p>The structure of a compiler. Lexical analysis. Parsing techniques. Syntax directed translation. Run-time implementation of various programming language constructs. Introduction to code generation for an idealized machine. Students will implement parts of a compiler. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 273 and COMP 302 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Laurie Hendren 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-520" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP527"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_527">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 527</span> &nbsp;&nbsp;  Logic and Computation </p></a>
+                  <div id="COMP_527" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Introduction to modern constructive logic, its mathematical properties, and its numerous applications in computer science. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 302 </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Not open to students who have taken COMP 426 </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Brigitte Pientka 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-527" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP529"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_529">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 529</span> &nbsp;&nbsp;  Software Architecture </p></a>
+                  <div id="COMP_529" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Development, analysis, and maintenance of software architectures, with special focus on modular decomposition and reverse engineering. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 303. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Martin Robillard 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-529" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP531"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_531">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 531</span> &nbsp;&nbsp;  Advanced Theory of Computation </p></a>
+                  <div id="COMP_531" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Turing machines, boolean circuits. The equivalence of various models and the Church-Turing thesis. Unsolvable problems. Model dependent measures of computational complexity. Abstract complexity theory. Exponentially and super-exponentially difficult problems. Complete problems. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 330 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Denis Therien 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-531" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP535"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_535">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 535</span> &nbsp;&nbsp;  Computer Networks 1 </p></a>
+                  <div id="COMP_535" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Exposition of the first four layers of the ISO model for computer network protocols, i.e., the physical, data, network, and transport layers. Basic hardware and software issues with examples drawn from existing networks, notably SNA, DECnet, and ARPAnet. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 310 </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Students may not take both COMP 435 and COMP 535 for credit </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-535" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP540"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_540">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 540</span> &nbsp;&nbsp;  Matrix Computations </p></a>
+                  <div id="COMP_540" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Designing and programming reliable numerical algorithms. Stability of algorithms and condition of problems. Reliable and efficient algorithms for solution of equations, linear least squares problems, the singular value decomposition, the eigenproblem and related problems. Perturbation analysis of problems. Algorithms for structured matrices. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>MATH 327 or COMP 350 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xiao-Wen Chang 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-540" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP546"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_546">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 546</span> &nbsp;&nbsp;  Computational Perception </p></a>
+                  <div id="COMP_546" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Computational models of visual perception and audition. Vision problems include stereopsis, motion, focus, perspective, color. Audition problems include source localization and recognition. Emphasis on physics of image formation, sensory signal processing, neural pathways and computation, psychophysical methods. </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Michael Langer 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-546" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP552"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_552">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 552</span> &nbsp;&nbsp;  Combinatorial Optimization </p></a>
+                  <div id="COMP_552" class="panel-collapse collapse out courses">
+      <br>            
+          <p>polyhedral methods, network optimization, the ellipsoid method, graph algorithms, matroid theory and submodular functions. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>Math 350 or COMP 362 (or equivalent). </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>This course is reserved for undergraduate honours students and graduate students. Not open to students who have taken or are taking MATH 552. </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Bruce Shepherd 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-552" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP553"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_553">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 553</span> &nbsp;&nbsp;  Algorithmic Game Theory </p></a>
+                  <div id="COMP_553" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Foundations of game theory. Computation aspects of equilibria. Theory of auctions and modern auction design. General equilibrium theory and welfare economics. Algorithmic mechanism design. Dynamic games. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 362 or MATH 350 or MATH 354 or MATH 487, or instructor permission </p>
+      
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Not open to students who are taking or have taken MATH 553 </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Adrian Vetta 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-553" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP557"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_557">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 557</span> &nbsp;&nbsp;  Fundamentals of Computer Graphics </p></a>
+                  <div id="COMP_557" class="panel-collapse collapse out courses">
+      <br>            
+          <p>overview of graphics process, projective geometry, homogeneous coordinates, projective transformations, quadrics and tensors, line-drawing, surface modelling and object modelling reflectance models and rendering, texture mapping, polyhedral representations, procedural modelling, and animation. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>MATH 223, COMP 251, COMP 206 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Paul Kry 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-557" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP559"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_559">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 559</span> &nbsp;&nbsp;  Fundamentals of Computer Animation </p></a>
+                  <div id="COMP_559" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Physically-based animation, constraints, stiff systems, motion capture, rigid body motion, collision detection, deformable solids. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 557, COMP 350 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Paul Kry 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-559" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP561"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_561">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 561</span> &nbsp;&nbsp;  Computational Biology Methods and Research </p></a>
+                  <div id="COMP_561" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Application of computer science techniques to problems arising in biology and medicine, techniques for modeling evolution, aligning molecular sequences, predicting structure of a molecule and other problems from computational biology. An in-depth exploration of key research areas. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 251, and MATH 323 or MATH 203 or BIOL 309 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Mathieu Blanchette 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-561" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP598"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_598">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 598</span> &nbsp;&nbsp;  Topics in Computer Science 1 </p></a>
+                  <div id="COMP_598" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Topics in computer science. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>Permission of instructor. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Joelle Pineau 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-598" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP599"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_599">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 599</span> &nbsp;&nbsp;  Topics in Computer Science 2 </p></a>
+                  <div id="COMP_599" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Topics in computer science. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>Permission of instructor. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Jackie Chi Kit Cheung 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Prakash Panangaden 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-599" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP601"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_601">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 601</span> &nbsp;&nbsp;  Thesis Literature Review </p></a>
+                  <div id="COMP_601" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Michael Langer 
+                    , 
+                     Prakash Panangaden 
+                    , 
+                     Gregory Dudek 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Michael Langer 
+                    , 
+                     Prakash Panangaden 
+                    , 
+                     Gregory Dudek 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-601" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP610"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_610">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 610</span> &nbsp;&nbsp;  Information Structures 1 </p></a>
+                  <div id="COMP_610" class="panel-collapse collapse out courses">
+      <br>            
+          <p>lists, stacks, queues, trees, hash tables, binary search trees, red-black trees, heaps. Augmenting data structures. Sorting and selection, Recursive algorithms. Advanced data structures including binomial heaps, Fibonacci heaps, disjoint set structures, and splay trees. Amortizing. String algorithms. Huffman trees and suffix trees. Graph algorithms. </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Bruce Reed 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-610" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP616D1"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_616D1">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 616D1</span> &nbsp;&nbsp;  Bioinformatics Seminar </p></a>
+                  <div id="COMP_616D1" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Introduction to current trends in Bioinformatics and closely related fields such as genomics and proteomics. </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Mathieu Blanchette 
+                    , 
+                     Mike Hallett 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-616D1" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP616D2"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_616D2">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 616D2</span> &nbsp;&nbsp;  Bioinformatics Seminar </p></a>
+                  <div id="COMP_616D2" class="panel-collapse collapse out courses">
+      <br>            
+          <p>See COMP 616D1 for description. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 616D1. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Mike Hallett 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-616D2" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP616N1"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_616N1">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 616N1</span> &nbsp;&nbsp;  Bioinformatics Seminar </p></a>
+                  <div id="COMP_616N1" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Introduction to current trends in Bioinformatics and closely related fields such as genomics and proteomics. </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Mike Hallett 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-616N1" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP616N2"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_616N2">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 616N2</span> &nbsp;&nbsp;  Bioinformatics Seminar </p></a>
+                  <div id="COMP_616N2" class="panel-collapse collapse out courses">
+      <br>            
+          <p>See COMP 616N1 for course description. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 616N1 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Mathieu Blanchette 
+                    , 
+                     Mike Hallett 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-616N2" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP618"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_618">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 618</span> &nbsp;&nbsp;  Bioinformatics: Functional Genomics </p></a>
+                  <div id="COMP_618" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Techniques related to microarrays (normalization, differential expression, class prediction, class discovery), the analysis of non-coding sequence data (identification of transcription factor binding sites), single nucleotide polymorphisms, the inference of biological networks, and integrative Bioinformatics approaches. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>Enrolment in Bioinformatics Option Program or permission of coordinators. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Mike Hallett 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-618" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP621"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_621">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 621</span> &nbsp;&nbsp;  Program Analysis and Transformations </p></a>
+                  <div id="COMP_621" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Program analysis and transformations are used in optimizing compilers and other automatic tools such as bug-finders, verification tools and software engineering applications. Course topics include the design of intermediate representations, control flow analysis, data flow analysis at both the intra- and inter-procedural level and program transformations for performance improvement. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 251 or equivalent, COMP 302 or equivalent, COMP 520 is useful but not strictly necessary </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Laurie Hendren 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-621" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP642"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_642">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 642</span> &nbsp;&nbsp;  Numerical Estimation Methods </p></a>
+                  <div id="COMP_642" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Efficient and reliable numerical algorithms in estimation and their applications.  Linear models and least squares estimation.  Maximum-likelihood estimation.  Kalman filtering.  Adaptive estimation, GPS measurements and mathematical models for positioning.  Position estimation. Fault detection and exclusion. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>MATH 323, MATH 324 and COMP 350 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xiao-Wen Chang 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-642" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP647"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_647">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 647</span> &nbsp;&nbsp;  Advanced Cryptography </p></a>
+                  <div id="COMP_647" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Information theoretic definitions of security, zero-knowledge protocols, secure function evaluation protocols, cryptographic primitives, privacy amplification, error correction, quantum cryptography, quantum cryptanalysis. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 547 </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Claude Crepeau 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-647" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP652"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_652">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 652</span> &nbsp;&nbsp;  Machine Learning </p></a>
+                  <div id="COMP_652" class="panel-collapse collapse out courses">
+      <br>            
+          <p>An overview of state-of-the-art algorithms used in machine learning, including theoretical properties and practical applications of these algorithms. </p>
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+         <h4 class="darkcolor" style="padding-left:10px">Prerequisite</h4>
+             <p>COMP 424, COMP 526 or ECSE 526, COMP 360, MATH 323 or ECSE 305. </p>
+      
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Doina Precup 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-652" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP690"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_690">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 690</span> &nbsp;&nbsp;  Probabilistic Analysis of Algorithms </p></a>
+                  <div id="COMP_690" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Probabilistic analysis of algorithms and data structures under random input. Expected behaviour of search trees, tries, heaps, bucket structures and multidimensional data structures. Random sampling, divide-and-conquer, grid methods. Applications in computational geometry and in game tree searching. Combinatorial search problems. Algorithms on random graphs. </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Luc Devroye 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-690" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP691"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_691">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 691</span> &nbsp;&nbsp;  Thesis Research 1 </p></a>
+                  <div id="COMP_691" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to thesis. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-691" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP693"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_693">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 693</span> &nbsp;&nbsp;  Research Project 1 </p></a>
+                  <div id="COMP_693" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to project. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-693" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP694"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_694">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 694</span> &nbsp;&nbsp;  Research Project 2 </p></a>
+                  <div id="COMP_694" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to project. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-694" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP695"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_695">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 695</span> &nbsp;&nbsp;  Research Project 3 </p></a>
+                  <div id="COMP_695" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to project. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-695" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP696"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_696">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 696</span> &nbsp;&nbsp;  Thesis Research 2 </p></a>
+                  <div id="COMP_696" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to thesis. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-696" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP697"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_697">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 697</span> &nbsp;&nbsp;  Thesis Research 3 </p></a>
+                  <div id="COMP_697" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to thesis. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-697" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP698"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_698">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 698</span> &nbsp;&nbsp;  Thesis Research 4 </p></a>
+                  <div id="COMP_698" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to thesis. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-698" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP699"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_699">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 699</span> &nbsp;&nbsp;  Thesis Research 5 </p></a>
+                  <div id="COMP_699" class="panel-collapse collapse out courses">
+      <br>            
+          <p>Ongoing research pertaining to thesis. </p>
+          
+        
+          
+
+          
+             <hr style="margin-top: 12px; margin-bottom: 0px;">
+             <h4 class="darkcolor" style="padding-left:10px">Restriction</h4>
+             <p>Computer Science students </p>
+      
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xue Liu 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-699" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP700"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_700">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 700</span> &nbsp;&nbsp; Ph.D. Comprehensive Examination</p></a>
+                  <div id="COMP_700" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xiao-Wen Chang 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xiao-Wen Chang 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-700" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP701"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_701">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 701</span> &nbsp;&nbsp;  Thesis Proposal and Area Examination </p></a>
+                  <div id="COMP_701" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Xiao-Wen Chang 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Xiao-Wen Chang 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-701" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP760"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_760">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 760</span> &nbsp;&nbsp;  Advanced Topics Theory 1 </p></a>
+                  <div id="COMP_760" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Hamed Hatami 
+                    
+                    </p></td>
+              </tr>
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Bruce Reed 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-760" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP762"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_762">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 762</span> &nbsp;&nbsp;  Advanced Topics Programming 1 </p></a>
+                  <div id="COMP_762" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Laurie Hendren 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-762" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP764"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_764">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 764</span> &nbsp;&nbsp;  Advanced Topics Systems 1 </p></a>
+                  <div id="COMP_764" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Wenbo He 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-764" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP765"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_765">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 765</span> &nbsp;&nbsp;  Advanced Topics Systems 2 </p></a>
+                  <div id="COMP_765" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Fall</p></td> 
+                <td><p> Gregory Dudek 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-765" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        
+        <a id="COMP767"></a><a class="accordion-toggle " data-toggle="collapse" href="#COMP_767">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 767</span> &nbsp;&nbsp;  Advanced Topics: Applications 2 </p></a>
+                  <div id="COMP_767" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+<!--          <h2  class="lead text-warning pagetitle" style="color:rgb(0, 170, 220); font-size: 20px">&nbsp;&nbsp;Offerings </h2>   -->
+            <table class="table table-responsive table-striped">
+              <tr><th><p class="darkcolor"><b>Semester</b></p></th><th><p class="darkcolor"><b>Instructor</b></p></th></tr>   
+          
+              <tr>
+                <td><p>Winter</p></td> 
+                <td><p> Derek Ruths 
+                    
+                    </p></td>
+              </tr>
+          
+                </table>
+          <p align=""><a href="http://www.mcgill.ca/study/courses/COMP-767" target="_blank">View this course on the McGill eCalendar</a></p>
+
+          <!-- 
+          <h2>McGill Course Listing</h2>
+          <iframe src="http://www.mcgill.ca/global/php/coursepopup.php?Course=+"></iframe> 
+          -->
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+        <h4 class="programtitle" id="unavailableCourses">Courses not offered in 2016-2017</h4>
+          <table class="table table-responsive table-hover table-condensed">
+            <tbody>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_189">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 189</span> &nbsp;&nbsp;  Computers and Society </p></a>
+                  <div id="COMP_189" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_199">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 199</span> &nbsp;&nbsp;  FYS: Excursions in Computer Science </p></a>
+                  <div id="COMP_199" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_280">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 280</span> &nbsp;&nbsp;  History and Philosophy of Computing </p></a>
+                  <div id="COMP_280" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_321">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 321</span> &nbsp;&nbsp;  Programming Challenges </p></a>
+                  <div id="COMP_321" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_409">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 409</span> &nbsp;&nbsp;  Concurrent Programming </p></a>
+                  <div id="COMP_409" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_521">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 521</span> &nbsp;&nbsp;  Modern Computer Games </p></a>
+                  <div id="COMP_521" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_522">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 522</span> &nbsp;&nbsp;  Modelling and Simulation </p></a>
+                  <div id="COMP_522" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_523">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 523</span> &nbsp;&nbsp;  Language-based Security </p></a>
+                  <div id="COMP_523" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_524">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 524</span> &nbsp;&nbsp;  Theoretical Foundations of Programming Languages </p></a>
+                  <div id="COMP_524" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_525">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 525</span> &nbsp;&nbsp;  Formal Verification </p></a>
+                  <div id="COMP_525" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_526">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 526</span> &nbsp;&nbsp;  Probabilistic Reasoning and AI </p></a>
+                  <div id="COMP_526" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_533">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 533</span> &nbsp;&nbsp;  Model-Driven Software Development </p></a>
+                  <div id="COMP_533" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_547">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 547</span> &nbsp;&nbsp;  Cryptography and Data Security </p></a>
+                  <div id="COMP_547" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_554">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 554</span> &nbsp;&nbsp;  Approximation Algorithms </p></a>
+                  <div id="COMP_554" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_558">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 558</span> &nbsp;&nbsp;  Fundamentals of Computer Vision </p></a>
+                  <div id="COMP_558" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_560">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 560</span> &nbsp;&nbsp;  Graph Algorithms and Applications </p></a>
+                  <div id="COMP_560" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_564">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 564</span> &nbsp;&nbsp;  Computational Gene Regulation </p></a>
+                  <div id="COMP_564" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_567">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 567</span> &nbsp;&nbsp;  Discrete Optimization 2 </p></a>
+                  <div id="COMP_567" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_575">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 575</span> &nbsp;&nbsp;  Fundamentals of Distributed Algorithms </p></a>
+                  <div id="COMP_575" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_601D1">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 601D1</span> &nbsp;&nbsp;  Thesis Literature Review </p></a>
+                  <div id="COMP_601D1" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_601D2">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 601D2</span> &nbsp;&nbsp;  Thesis Literature Review </p></a>
+                  <div id="COMP_601D2" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_601N1">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 601N1</span> &nbsp;&nbsp;  Thesis Literature Review </p></a>
+                  <div id="COMP_601N1" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_601N2">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 601N2</span> &nbsp;&nbsp;  Thesis Literature Review </p></a>
+                  <div id="COMP_601N2" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_612">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 612</span> &nbsp;&nbsp;  Database Programming Principles </p></a>
+                  <div id="COMP_612" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_614">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 614</span> &nbsp;&nbsp;  Distributed Data Management </p></a>
+                  <div id="COMP_614" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_627">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 627</span> &nbsp;&nbsp;  Theoretical Programming Languages </p></a>
+                  <div id="COMP_627" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_649">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 649</span> &nbsp;&nbsp;  Quantum Cryptography </p></a>
+                  <div id="COMP_649" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_655">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 655</span> &nbsp;&nbsp;  Distributed Simulation </p></a>
+                  <div id="COMP_655" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_667">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 667</span> &nbsp;&nbsp;  Software Fault Tolerance </p></a>
+                  <div id="COMP_667" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_669">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 669</span> &nbsp;&nbsp;  Computational Science Engineering Seminar </p></a>
+                  <div id="COMP_669" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_669D1">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 669D1</span> &nbsp;&nbsp;  Computational Science Engineering Seminar </p></a>
+                  <div id="COMP_669D1" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_669D2">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 669D2</span> &nbsp;&nbsp;  Computational Science Engineering Seminar </p></a>
+                  <div id="COMP_669D2" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_680">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 680</span> &nbsp;&nbsp;  Mining Biological Sequences </p></a>
+                  <div id="COMP_680" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_700D1">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 700D1</span> &nbsp;&nbsp; Ph.D. Comprehensive Examination</p></a>
+                  <div id="COMP_700D1" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_700D2">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 700D2</span> &nbsp;&nbsp; Ph.D. Comprehensive Examination</p></a>
+                  <div id="COMP_700D2" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_761">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 761</span> &nbsp;&nbsp;  Advanced Topics Theory 2 </p></a>
+                  <div id="COMP_761" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_763">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 763</span> &nbsp;&nbsp;  Advanced Topics Programming 2 </p></a>
+                  <div id="COMP_763" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <div>
+        <a class="accordion-toggle " data-toggle="collapse" href="#COMP_766">
+           <p class="course_p"><span class="blue" style="font-weight:500;">COMP 766</span> &nbsp;&nbsp;  Advanced Topics Applications 1 </p></a>
+                  <div id="COMP_766" class="panel-collapse collapse out courses">
+      <br>            
+          <p> </p>
+          
+        
+          
+
+          
+          <hr style="margin-top: 12px; margin-bottom: 0px;">
+
+           </div>
+      </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+            <div id="footer-container">
+                <div class="container">
+                    
+
+<div id="footer-information" class="row" style="margin-top:20px;">
+    <div class="col-md-8 col-sm-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4" style="margin:10px 0 10px 0; ">
+                <address>
+                    <strong style="color:white;">Main Office</strong><br>
+                    McConnell Engineering Bldg.<br/> Room 318<br>
+                    3480 University <br>
+                    Montreal, Qc, Canada<br>
+                    H3A 0E9<br>
+                    <i class="icon-phone linkicon"></i> (514) 398-7071 <br>
+                    <i class="icon-print linkicon"></i> (514) 398-3883
+                </address>
+            </div>
+            <!-- border-left: 1px dotted #fff; -->
+            <div class="col-xs-12 col-sm-4 col-md-4" style="margin:10px 0 10px 0;">
+                <address>
+                    <strong style="color:white;">Help Desk</strong><br>
+                    McConnell Engineering Bldg.<br/> Room 209N<br>
+                    3480 University <br>
+                    Montreal, Qc, Canada<br>
+                    H3A 0E9<br>
+                    <a href="mailto:help@cs.mcgill.ca"><i class="icon-envelope linkicon"></i>
+                        help@cs.mcgill.ca
+                    </a>
+                    <br>
+                    <i class="icon-phone linkicon"></i> (514) 398-7087 <br>
+                    <i class="icon-print linkicon"></i> (514) 398-3883 <br>
+                </address>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4" style="margin:10px 0 10px 0;">
+                <address>
+                    <strong style="color:white;">Quick Links</strong><br>
+                    <a href="http://mail.cs.mcgill.ca">Webmail</a> <br>
+                    <a href="http://reservations.cs.mcgill.ca">Room Reservations</a> <br>
+                    <a href="/docs">Tech Support</a> <br>
+                    <a href="/forms">Internal</a>
+                </address>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4">
+        <iframe style="width:100%;height:200px;border:none;" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"
+                src="https://www.google.com/maps/ms?msid=213456729478671238348.0004e34d272f532ee8302&amp;msa=0&amp;dg=feature&amp;ie=UTF8&amp;ll=45.507204,-73.577993&amp;spn=0.011985,0.017273&amp;t=m&amp;output=embed&amp;z=15">
+        </iframe>
+        <br/>
+        <small class="pull-right" style="color:white;">View
+            <a target="_blank"
+               href="https://www.google.com/maps/ms?msid=213456729478671238348.0004e34d272f532ee8302&amp;msa=0&amp;dg=feature&amp;ie=UTF8&amp;ll=45.507204,-73.577993&amp;spn=0.011985,0.017273&amp;t=m&amp;source=embed"
+               style="text-decoration: none;color:#428bca;text-align:right">School of Computer Science</a>
+            in a
+            larger map
+        </small>
+    </div>
+</div>
+
+<div id="footer-credits" style="height:100px;">
+    <div class="container">
+        <div class="hidden-xs">
+            <img src="/static/img/logoline2.png" style="max-height:60px;margin-top: 20px;"
+                 class="pull-right"/>
+        </div>
+        <h5 style="color:#A0A0A0;font-weight:200;font-size:18px; margin-top: 60px;">&copy; McGill
+            University 2016. <span><a class="credit" href="#credit" data-toggle="popover"
+                                               data-placement="top"
+                                               data-content="Jimmy Li, Yunjing Tian, Marc Jarvis, Monica Ung, Corey"
+                                               style="color:#fff;text-decoration:none;">Credits</a></span>
+        </h5>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+            <div id="back-to-top-container">
+                <a href="#" id="back-to-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+            </div>
+        </div>
+    </body>
+</html>
