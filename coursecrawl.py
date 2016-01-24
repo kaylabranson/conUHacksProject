@@ -15,9 +15,9 @@ def extractCourseCatalog(School):
 	url = urllib2.urlopen(School.url)
 	html = url.read()
 	txt_content = BeautifulSoup(html, 'html.parser').get_text()
-	txt_name = School.name + '_content.txt'
+	txt_name = School.name + '.txt'
 	txt_file = open(txt_name, 'w')
-	txt_file.write(html)
+	txt_file.write(txt_content)
 	txt_file.close()
 
 
