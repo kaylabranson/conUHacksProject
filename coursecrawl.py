@@ -1,7 +1,6 @@
 import urllib2
 
 class School:
-	#school constrructor takes name and url
 	def __init__(self, name, url):
 		self.name = name 
 		self.url = url #url listing courses
@@ -9,13 +8,14 @@ class School:
 class Course:
 	def __init__(self, name):
 		self.name = name
-	# implement tagging system
 
-# extracts html from course website
 def extractCourseCatalog(School):
 	url = urllib2.urlopen(School.url)
 	html = url.read()
-	# print html
+	html_txt_name = School.name + '_html.txt'
+	html_txt_file = open(html_txt_name, 'w')
+	html_txt_file.write(html)
+	html_txt_file.close()
 
 McGill = School('McGill', 'https://www.cs.mcgill.ca/academic/courses/all_courses')
 Concordia = School('Concordia', 'https://www.concordia.ca/academics/undergraduate/calendar/current/sec71/71-70.html#b71.70.10')
@@ -25,3 +25,7 @@ extractCourseCatalog(McGill)
 
 print Concordia.name
 extractCourseCatalog(Concordia)
+
+# for c in courses:
+# 	if tag = c.tag:
+# 		tagCount += 1
