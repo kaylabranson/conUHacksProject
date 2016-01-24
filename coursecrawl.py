@@ -17,9 +17,8 @@ def extractCourseCatalog(School):
 	txt_content = BeautifulSoup(html, 'html.parser').get_text()
 	txt_name = School.name + '.txt'
 	txt_file = open(txt_name, 'w')
-	txt_file.write(txt_content)
+	txt_file.write(txt_content.encode('utf-8'))
 	txt_file.close()
-
 
 McGill = School('McGill', 'https://www.cs.mcgill.ca/academic/courses/all_courses')
 Concordia = School('Concordia', 'https://www.concordia.ca/academics/undergraduate/calendar/current/sec71/71-70.html#b71.70.10')

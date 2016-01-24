@@ -1,0 +1,3013 @@
+
+
+
+
+
+
+
+
+
+
+McGill School Of Computer Science
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tinymce_init()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prospective
+
+General Info
+Why CS?
+CEGEP
+Freshman
+Choosing a Major
+Transfer
+Internship
+
+Admission
+Undergraduate
+Graduate
+
+
+
+Academic
+
+Undergraduate
+Graduate
+Courses
+Funding
+
+
+
+Research
+
+Areas
+Labs
+Tech Reports
+Publications
+
+
+
+People
+
+Faculty
+Staff
+Community
+
+
+
+News
+
+Academic Positions
+Achievements
+
+Events
+Colloquia
+Seminars
+
+Notices
+Alerts
+Job Postings
+Research Postings
+
+
+
+About
+
+Contacts
+Facilities
+Academic Positions
+
+Quick Links
+Visitor Form
+Room Reservation
+
+Webmail
+Old Website
+
+Add Content
+Internal
+
+Docs
+Admin
+                            Info
+Tech Support
+
+
+
+
+
+
+
+
+
+Prospective
+
+General Info
+Why CS?
+CEGEP
+Freshman
+Choosing a Major
+Transfer
+Internship
+
+Admission
+Undergraduate
+Graduate
+
+
+
+Academic
+
+Undergraduate
+Graduate
+Courses
+Funding
+
+
+
+Research
+
+Areas
+Labs
+Tech Reports
+Publications
+
+
+
+People
+
+Faculty
+Staff
+Community
+
+
+
+News
+
+Academic Positions
+Achievements
+
+Events
+Colloquia
+Seminars
+
+Notices
+Alerts
+Job Postings
+Research Postings
+
+
+
+About
+
+Contacts
+Facilities
+Academic Positions
+
+Quick Links
+Visitor Form
+Room Reservation
+
+Webmail
+Old Website
+
+Add Content
+Internal
+
+Docs
+Admin
+                        Info
+Tech Support
+
+
+
+
+
+
+
+
+
+Prospective
+                    
+
+
+
+
+Academic
+                    
+
+
+
+
+Research
+                    
+
+
+
+
+People
+                    
+
+
+
+
+News
+                    
+
+
+
+
+About
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Undergraduate
+
+
+Graduate
+
+
+Courses
+
+Undergraduate
+Graduate
+Currently unavailable
+
+
+
+Funding
+
+
+Back to Top
+
+
+
+
+
+
+Undergraduate
+
+
+Graduate
+
+
+Courses
+
+Undergraduate
+Graduate
+Currently unavailable
+
+
+
+Funding
+
+
+
+
+
+
+
+
+Courses offered in 2016-2017
+
+
+
+
+
+
+COMP 102     Computers and Computing 
+
+
+A course for students with no previous knowledge of computer science. The impact of computers on society.  Web design and dynamic content. The inner workings of computers (hardware).  Networking principles. Algorithm design and programming. A look at how computers store data (image, sound, and video). Software distribution policies and mechanisms. 
+
+Prerequisite
+high school level mathematics course on functions. 
+
+
+
+SemesterInstructor
+
+Fall
+ Brigitte Pientka 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 202     Foundations of Programming 
+
+
+Introduction to programming in a modern high-level language, modular software design and debugging. Programming concepts are illustrated using a variety of application areas. 
+
+Prerequisite
+a CEGEP level mathematics course 
+
+
+
+SemesterInstructor
+
+Winter
+ Jackie Chi Kit Cheung 
+                    , 
+                     Yang Cai 
+                    
+                    
+
+
+Fall
+ Mike Hallett 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 206     Introduction to Software Systems 
+
+
+Comprehensive overview of programming in C, use of system calls and libraries, debugging and testing of code; use of developmental tools like make, version control systems. 
+
+Prerequisite
+COMP 202 or COMP 250 
+
+
+
+SemesterInstructor
+
+Fall
+ David Meger 
+                    
+                    
+
+
+Winter
+ Joseph Vybihal 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 208     Computers in Engineering 
+
+
+Introduction to computer systems. Concepts and structures for high level programming. Elements of structured programming using FORTRAN 90 and C. Numerical algorithms such as root finding, numerical integration and differential equations. Non-numerical algorithms for sorting and searching. 
+
+Prerequisite
+differential and integral calculus. 
+
+Corequisite
+linear algebra: determinants, vectors, matrix operations. 
+
+
+
+SemesterInstructor
+
+Fall
+ Nathan Friedman 
+                    
+                    
+
+
+Winter
+ Nathan Friedman 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 230     Logic and Computability 
+
+
+Propositional Logic, predicate calculus, proof systems, computability Turing machines, Church-Turing thesis, unsolvable problems, completeness, incompleteness, Tarski semantics, uses and misuses of Gödel's theorem. 
+
+Prerequisite
+CEGEP level mathematics. 
+
+
+
+SemesterInstructor
+
+Fall
+ Dirk Schlimm 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 250     Introduction to Computer Science 
+
+
+An introduction to the design of computer algorithms, including basic data structures, analysis of algorithms, and establishing correctness of programs. Overview of topics in computer science. 
+
+Prerequisite
+Familiarity with a high level programming language and CEGEP level Math. 
+
+
+
+SemesterInstructor
+
+Fall
+ Mathieu Blanchette 
+                    , 
+                     Jerome Waldispuhl 
+                    
+                    
+
+
+Winter
+ Claude Crepeau 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 251     Algorithms and Data Structures 
+
+
+Introduction to algorithm design and analysis. Graph algorithms, greedy algorithms, data structures, dynamic programming, maximum flows. 
+
+Prerequisite
+COMP 250 or COMP 203. 
+
+
+
+SemesterInstructor
+
+Fall
+ Claude Crepeau 
+                    
+                    
+
+
+Winter
+ Adrian Vetta 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 252     Honours Algorithms and Data Structures 
+
+
+The design and analysis of data structures and algorithms. The description of various computational problems and the algorithms that can be used to solve them, along with their associated data structures. Proving the correctness of algorithms and determining their computational complexity. 
+
+Prerequisite
+COMP 250 and MATH 240 
+
+
+
+SemesterInstructor
+
+Winter
+ Luc Devroye 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 273     Introduction to Computer Systems 
+
+
+Number representations, combinational and sequential digital circuits, MIPS instructions and architecture datapath and control, caches, virtual memory, interrupts and exceptions, pipelining. 
+
+Corequisite
+COMP 206. 
+
+
+
+SemesterInstructor
+
+Winter
+ Michael Langer 
+                    
+                    
+
+
+Fall
+ Paul Kry 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 302     Programming Languages and Paradigms 
+
+
+Programming language design issues and programming paradigms. Binding and scoping, parameter passing, lambda abstraction, data abstraction, type checking. Functional and logic programming. 
+
+Prerequisite
+COMP 250 
+
+
+
+SemesterInstructor
+
+Winter
+ Prakash Panangaden 
+                    
+                    
+
+
+Fall
+ Brigitte Pientka 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 303     Software Development 
+
+
+encapsulation, design patterns, unit testing, etc. 
+
+Prerequisite
+COMP 206, COMP 250. 
+
+
+
+SemesterInstructor
+
+Fall
+ Joseph Vybihal 
+                    
+                    
+
+
+Winter
+ Martin Robillard 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 307     Principles of Web Development 
+
+
+The course discusses the major principles, algorithms, languages and technologies that underlie web development. Students receive practical hands-on experience through a project. 
+
+
+
+SemesterInstructor
+
+Fall
+ Joseph Vybihal 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 308     Computer Systems Lab 
+
+
+Digital circuitry and programming interface of peripheral circuit boards (cards), e.g., graphics cards; introduction to tools and libraries that interact with the card; performance issues. 
+
+Prerequisite
+COMP 273. 
+
+
+
+SemesterInstructor
+
+Winter
+ Joseph Vybihal 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 310     Operating Systems 
+
+
+Control and scheduling of large information processing systems. Operating system software - resource allocation, dispatching, processors, access methods, job control languages, main storage management. Batch processing, multiprogramming, multiprocessing, time sharing. 
+
+Prerequisite
+COMP 273 
+
+
+
+SemesterInstructor
+
+Fall
+ Muthucumaru Maheswaran 
+                    
+                    
+
+
+Winter
+ Muthucumaru Maheswaran 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 330     Theory of Computation 
+
+
+Finite automata, regular languages, context-free languages, push-down automata, models of computation, computability theory, undecidability, reduction techniques. 
+
+Prerequisite
+COMP 251 and MATH 240. 
+
+
+
+SemesterInstructor
+
+Fall
+ Prakash Panangaden 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 350     Numerical Computing 
+
+
+Computer representation of numbers, IEEE Standard for Floating Point Representation, computer arithmetic and rounding errors. Numerical stability. Matrix computations and software systems. Polynomial interpolation. Least-squares approximation. Iterative methods for solving a nonlinear equation. Discretization methods for integration and differential equations. 
+
+Prerequisite
+MATH 222 and MATH 223 and one of: COMP 202, COMP 208, COMP 250; or equivalents. 
+
+
+
+SemesterInstructor
+
+Fall
+ Xiao-Wen Chang 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 360     Algorithm Design 
+
+
+Advanced algorithm design and analysis. Linear programming, complexity and NP-completeness, advanced algorithmic techniques. 
+
+Prerequisite
+Either COMP 251 or COMP 252, and either MATH 240 or MATH 235 or MATH 363. 
+
+Restriction
+Not open to students who have taken or are taking COMP 362. 
+
+
+
+SemesterInstructor
+
+Winter
+ Hamed Hatami 
+                    
+                    
+
+
+Fall
+ Hamed Hatami 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 361D1     Software Engineering Project 
+
+
+requirement elicitation and analysis, software design, implementation, integration, test planning, and maintenance. Application of the core concepts and techniques through the realization of a large software system. 
+
+Prerequisite
+COMP 206, COMP 250 
+
+Corequisite
+COMP 303 
+
+Restriction
+Not open to students who have taken the 3 credit version of COMP 361. 
+
+
+
+SemesterInstructor
+
+Fall
+ Joseph Vybihal 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 361D2     Software Engineering Project 
+
+
+See COMP 361D1 for course description. 
+
+Prerequisite
+COMP 361D1 
+
+
+
+SemesterInstructor
+
+Winter
+ Joseph Vybihal 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 362     Honours Algorithm Design 
+
+
+Basic algorithmic techniques, their applications and limitations. Problem complexity, how to deal with problems for which no efficient solutions are known. 
+
+Prerequisite
+COMP 252 
+
+Restriction
+Not open to students who have taken or are taking COMP 360. 
+
+
+
+SemesterInstructor
+
+Winter
+ Bruce Reed 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 364     Computer Tools for Life Sciences 
+
+
+Concepts and tools for programmatic storage, retrieval, searching, numerical analysis, and visualization of large biological data sets. 
+
+Prerequisite
+BIOL 200. 
+
+Restriction
+Not available to students in Computer Science or Joint Computer Science programs. 
+
+
+
+SemesterInstructor
+
+Winter
+ Mike Hallett 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 396     Undergraduate Research Project 
+
+
+Independent research project with a final written report. 
+
+
+
+SemesterInstructor
+
+Winter
+ Nathan Friedman 
+                    
+                    
+
+
+Fall
+ Nathan Friedman 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 400     Honours Project in Computer Science 
+
+
+A computer related project, typically a programming effort, along with a report will be carried out in cooperation with a staff member in the School of Computer Science. 
+
+Prerequisite
+15 Computer Science credits. 
+
+Restriction
+For Honours students 
+
+
+
+SemesterInstructor
+
+Fall
+ Nathan Friedman 
+                    
+                    
+
+
+Winter
+ Nathan Friedman 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 417     Introduction Robotics and Intelligent Systems 
+
+
+This course considers issues relevant to the design of robotic and of intelligent systems. How can robots move and interact. Robotic hardware systems. Kinematics and inverse kinematics. Sensors, sensor data interpretation and sensor fusion. Path planning. Configuration spaces. Position estimation. Intelligent systems. Spatial mapping. Multi-agent systems. Applications. 
+
+Prerequisite
+COMP 251, MATH 223 and (ECSE 321 or COMP 206). 
+
+
+
+SemesterInstructor
+
+Winter
+ Gregory Dudek 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 421     Database Systems 
+
+
+Database Design: conceptual design of databases (e.g., entity-relationship model), relational data model, functional dependencies. Database Manipulation: relational algebra, SQL, database application programming, triggers, access control. Database Implementation: transactions, concurrency control, recovery, query execution and query optimization. 
+
+Prerequisite
+COMP 206, COMP 251, COMP 302 
+
+
+
+SemesterInstructor
+
+Winter
+ Bettina Kemme 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 424     Artificial Intelligence 
+
+
+Introduction to search methods. Knowledge representation using logic and probability. Planning and decision making under uncertainty. Introduction to machine learning. 
+
+Prerequisite
+(COMP 206 or ECSE 321), MATH 323 or equivalent and COMP 251. 
+
+
+
+SemesterInstructor
+
+Winter
+ Joelle Pineau 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 462     Computational Biology Methods 
+
+
+Application of computer science techniques to problems arising in biology and medicine, techniques for modeling evolution, aligning molecular sequences, predicting structure of a molecule and other problems from computational biology. 
+
+Prerequisite
+COMP 251, and MATH 323 or MATH 203 or BIOL 309 
+
+Restriction
+Not open to students who have taken COMP 562.  Not open to students who are taking or have taken COMP 561. 
+
+
+
+SemesterInstructor
+
+Fall
+ Mathieu Blanchette 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+
+COMP 512     Distributed Systems 
+
+
+Models and Architectures. Application-oriented communication paradigms (e.g. remote method invocation, group communication). Naming services. Synchronization (e.g. mutual exclusion, concurrency control). Fault-tolerance (e.g. process and replication, agreement protocols). Distributed file systems. Security. Examples of distributed systems (e.g. Web, CORBA). Advanced Topics. 
+
+Prerequisite
+COMP 310, COMP 251 or equivalent. 
+
+
+
+SemesterInstructor
+
+Fall
+ Bettina Kemme 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 520     Compiler Design 
+
+
+The structure of a compiler. Lexical analysis. Parsing techniques. Syntax directed translation. Run-time implementation of various programming language constructs. Introduction to code generation for an idealized machine. Students will implement parts of a compiler. 
+
+Prerequisite
+COMP 273 and COMP 302 
+
+
+
+SemesterInstructor
+
+Winter
+ Laurie Hendren 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 527     Logic and Computation 
+
+
+Introduction to modern constructive logic, its mathematical properties, and its numerous applications in computer science. 
+
+Prerequisite
+COMP 302 
+
+Restriction
+Not open to students who have taken COMP 426 
+
+
+
+SemesterInstructor
+
+Winter
+ Brigitte Pientka 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 529     Software Architecture 
+
+
+Development, analysis, and maintenance of software architectures, with special focus on modular decomposition and reverse engineering. 
+
+Prerequisite
+COMP 303. 
+
+
+
+SemesterInstructor
+
+Fall
+ Martin Robillard 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 531     Advanced Theory of Computation 
+
+
+Turing machines, boolean circuits. The equivalence of various models and the Church-Turing thesis. Unsolvable problems. Model dependent measures of computational complexity. Abstract complexity theory. Exponentially and super-exponentially difficult problems. Complete problems. 
+
+Prerequisite
+COMP 330 
+
+
+
+SemesterInstructor
+
+Winter
+ Denis Therien 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 535     Computer Networks 1 
+
+
+Exposition of the first four layers of the ISO model for computer network protocols, i.e., the physical, data, network, and transport layers. Basic hardware and software issues with examples drawn from existing networks, notably SNA, DECnet, and ARPAnet. 
+
+Prerequisite
+COMP 310 
+
+Restriction
+Students may not take both COMP 435 and COMP 535 for credit 
+
+
+
+SemesterInstructor
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 540     Matrix Computations 
+
+
+Designing and programming reliable numerical algorithms. Stability of algorithms and condition of problems. Reliable and efficient algorithms for solution of equations, linear least squares problems, the singular value decomposition, the eigenproblem and related problems. Perturbation analysis of problems. Algorithms for structured matrices. 
+
+Prerequisite
+MATH 327 or COMP 350 
+
+
+
+SemesterInstructor
+
+Fall
+ Xiao-Wen Chang 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 546     Computational Perception 
+
+
+Computational models of visual perception and audition. Vision problems include stereopsis, motion, focus, perspective, color. Audition problems include source localization and recognition. Emphasis on physics of image formation, sensory signal processing, neural pathways and computation, psychophysical methods. 
+
+
+
+SemesterInstructor
+
+Fall
+ Michael Langer 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 552     Combinatorial Optimization 
+
+
+polyhedral methods, network optimization, the ellipsoid method, graph algorithms, matroid theory and submodular functions. 
+
+Prerequisite
+Math 350 or COMP 362 (or equivalent). 
+
+Restriction
+This course is reserved for undergraduate honours students and graduate students. Not open to students who have taken or are taking MATH 552. 
+
+
+
+SemesterInstructor
+
+Winter
+ Bruce Shepherd 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 553     Algorithmic Game Theory 
+
+
+Foundations of game theory. Computation aspects of equilibria. Theory of auctions and modern auction design. General equilibrium theory and welfare economics. Algorithmic mechanism design. Dynamic games. 
+
+Prerequisite
+COMP 362 or MATH 350 or MATH 354 or MATH 487, or instructor permission 
+
+Restriction
+Not open to students who are taking or have taken MATH 553 
+
+
+
+SemesterInstructor
+
+Fall
+ Adrian Vetta 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 557     Fundamentals of Computer Graphics 
+
+
+overview of graphics process, projective geometry, homogeneous coordinates, projective transformations, quadrics and tensors, line-drawing, surface modelling and object modelling reflectance models and rendering, texture mapping, polyhedral representations, procedural modelling, and animation. 
+
+Prerequisite
+MATH 223, COMP 251, COMP 206 
+
+
+
+SemesterInstructor
+
+Fall
+ Paul Kry 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 559     Fundamentals of Computer Animation 
+
+
+Physically-based animation, constraints, stiff systems, motion capture, rigid body motion, collision detection, deformable solids. 
+
+Prerequisite
+COMP 557, COMP 350 
+
+
+
+SemesterInstructor
+
+Winter
+ Paul Kry 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 561     Computational Biology Methods and Research 
+
+
+Application of computer science techniques to problems arising in biology and medicine, techniques for modeling evolution, aligning molecular sequences, predicting structure of a molecule and other problems from computational biology. An in-depth exploration of key research areas. 
+
+Prerequisite
+COMP 251, and MATH 323 or MATH 203 or BIOL 309 
+
+
+
+SemesterInstructor
+
+Fall
+ Mathieu Blanchette 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 598     Topics in Computer Science 1 
+
+
+Topics in computer science. 
+
+Prerequisite
+Permission of instructor. 
+
+
+
+SemesterInstructor
+
+Fall
+ Joelle Pineau 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 599     Topics in Computer Science 2 
+
+
+Topics in computer science. 
+
+Prerequisite
+Permission of instructor. 
+
+
+
+SemesterInstructor
+
+Fall
+ Jackie Chi Kit Cheung 
+                    
+                    
+
+
+Winter
+ Prakash Panangaden 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 601     Thesis Literature Review 
+
+
+ 
+
+
+
+SemesterInstructor
+
+Fall
+ Michael Langer 
+                    , 
+                     Prakash Panangaden 
+                    , 
+                     Gregory Dudek 
+                    
+                    
+
+
+Winter
+ Michael Langer 
+                    , 
+                     Prakash Panangaden 
+                    , 
+                     Gregory Dudek 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 610     Information Structures 1 
+
+
+lists, stacks, queues, trees, hash tables, binary search trees, red-black trees, heaps. Augmenting data structures. Sorting and selection, Recursive algorithms. Advanced data structures including binomial heaps, Fibonacci heaps, disjoint set structures, and splay trees. Amortizing. String algorithms. Huffman trees and suffix trees. Graph algorithms. 
+
+
+
+SemesterInstructor
+
+Winter
+ Bruce Reed 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 616D1     Bioinformatics Seminar 
+
+
+Introduction to current trends in Bioinformatics and closely related fields such as genomics and proteomics. 
+
+
+
+SemesterInstructor
+
+Fall
+ Mathieu Blanchette 
+                    , 
+                     Mike Hallett 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 616D2     Bioinformatics Seminar 
+
+
+See COMP 616D1 for description. 
+
+Prerequisite
+COMP 616D1. 
+
+
+
+SemesterInstructor
+
+Winter
+ Mike Hallett 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 616N1     Bioinformatics Seminar 
+
+
+Introduction to current trends in Bioinformatics and closely related fields such as genomics and proteomics. 
+
+
+
+SemesterInstructor
+
+Winter
+ Mike Hallett 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 616N2     Bioinformatics Seminar 
+
+
+See COMP 616N1 for course description. 
+
+Prerequisite
+COMP 616N1 
+
+
+
+SemesterInstructor
+
+Fall
+ Mathieu Blanchette 
+                    , 
+                     Mike Hallett 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 618     Bioinformatics: Functional Genomics 
+
+
+Techniques related to microarrays (normalization, differential expression, class prediction, class discovery), the analysis of non-coding sequence data (identification of transcription factor binding sites), single nucleotide polymorphisms, the inference of biological networks, and integrative Bioinformatics approaches. 
+
+Prerequisite
+Enrolment in Bioinformatics Option Program or permission of coordinators. 
+
+
+
+SemesterInstructor
+
+Winter
+ Mike Hallett 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 621     Program Analysis and Transformations 
+
+
+Program analysis and transformations are used in optimizing compilers and other automatic tools such as bug-finders, verification tools and software engineering applications. Course topics include the design of intermediate representations, control flow analysis, data flow analysis at both the intra- and inter-procedural level and program transformations for performance improvement. 
+
+Prerequisite
+COMP 251 or equivalent, COMP 302 or equivalent, COMP 520 is useful but not strictly necessary 
+
+
+
+SemesterInstructor
+
+Fall
+ Laurie Hendren 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 642     Numerical Estimation Methods 
+
+
+Efficient and reliable numerical algorithms in estimation and their applications.  Linear models and least squares estimation.  Maximum-likelihood estimation.  Kalman filtering.  Adaptive estimation, GPS measurements and mathematical models for positioning.  Position estimation. Fault detection and exclusion. 
+
+Prerequisite
+MATH 323, MATH 324 and COMP 350 
+
+
+
+SemesterInstructor
+
+Winter
+ Xiao-Wen Chang 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 647     Advanced Cryptography 
+
+
+Information theoretic definitions of security, zero-knowledge protocols, secure function evaluation protocols, cryptographic primitives, privacy amplification, error correction, quantum cryptography, quantum cryptanalysis. 
+
+Prerequisite
+COMP 547 
+
+
+
+SemesterInstructor
+
+Winter
+ Claude Crepeau 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 652     Machine Learning 
+
+
+An overview of state-of-the-art algorithms used in machine learning, including theoretical properties and practical applications of these algorithms. 
+
+Prerequisite
+COMP 424, COMP 526 or ECSE 526, COMP 360, MATH 323 or ECSE 305. 
+
+
+
+SemesterInstructor
+
+Winter
+ Doina Precup 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 690     Probabilistic Analysis of Algorithms 
+
+
+Probabilistic analysis of algorithms and data structures under random input. Expected behaviour of search trees, tries, heaps, bucket structures and multidimensional data structures. Random sampling, divide-and-conquer, grid methods. Applications in computational geometry and in game tree searching. Combinatorial search problems. Algorithms on random graphs. 
+
+
+
+SemesterInstructor
+
+Fall
+ Luc Devroye 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 691     Thesis Research 1 
+
+
+Ongoing research pertaining to thesis. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 693     Research Project 1 
+
+
+Ongoing research pertaining to project. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 694     Research Project 2 
+
+
+Ongoing research pertaining to project. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 695     Research Project 3 
+
+
+Ongoing research pertaining to project. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 696     Thesis Research 2 
+
+
+Ongoing research pertaining to thesis. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 697     Thesis Research 3 
+
+
+Ongoing research pertaining to thesis. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 698     Thesis Research 4 
+
+
+Ongoing research pertaining to thesis. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 699     Thesis Research 5 
+
+
+Ongoing research pertaining to thesis. 
+
+Restriction
+Computer Science students 
+
+
+
+SemesterInstructor
+
+Winter
+ Xue Liu 
+                    
+                    
+
+
+Fall
+ Xue Liu 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 700    Ph.D. Comprehensive Examination
+
+
+ 
+
+
+
+SemesterInstructor
+
+Fall
+ Xiao-Wen Chang 
+                    
+                    
+
+
+Winter
+ Xiao-Wen Chang 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 701     Thesis Proposal and Area Examination 
+
+
+ 
+
+
+
+SemesterInstructor
+
+Fall
+ Xiao-Wen Chang 
+                    
+                    
+
+
+Winter
+ Xiao-Wen Chang 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 760     Advanced Topics Theory 1 
+
+
+ 
+
+
+
+SemesterInstructor
+
+Winter
+ Hamed Hatami 
+                    
+                    
+
+
+Fall
+ Bruce Reed 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 762     Advanced Topics Programming 1 
+
+
+ 
+
+
+
+SemesterInstructor
+
+Fall
+ Laurie Hendren 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 764     Advanced Topics Systems 1 
+
+
+ 
+
+
+
+SemesterInstructor
+
+Winter
+ Wenbo He 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 765     Advanced Topics Systems 2 
+
+
+ 
+
+
+
+SemesterInstructor
+
+Fall
+ Gregory Dudek 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+
+
+COMP 767     Advanced Topics: Applications 2 
+
+
+ 
+
+
+
+SemesterInstructor
+
+Winter
+ Derek Ruths 
+                    
+                    
+
+
+View this course on the McGill eCalendar
+
+
+
+
+
+
+
+Courses not offered in 2016-2017
+
+
+
+
+
+
+COMP 189     Computers and Society 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 199     FYS: Excursions in Computer Science 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 280     History and Philosophy of Computing 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 321     Programming Challenges 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 409     Concurrent Programming 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 521     Modern Computer Games 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 522     Modelling and Simulation 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 523     Language-based Security 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 524     Theoretical Foundations of Programming Languages 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 525     Formal Verification 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 526     Probabilistic Reasoning and AI 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 533     Model-Driven Software Development 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 547     Cryptography and Data Security 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 554     Approximation Algorithms 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 558     Fundamentals of Computer Vision 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 560     Graph Algorithms and Applications 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 564     Computational Gene Regulation 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 567     Discrete Optimization 2 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 575     Fundamentals of Distributed Algorithms 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 601D1     Thesis Literature Review 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 601D2     Thesis Literature Review 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 601N1     Thesis Literature Review 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 601N2     Thesis Literature Review 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 612     Database Programming Principles 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 614     Distributed Data Management 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 627     Theoretical Programming Languages 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 649     Quantum Cryptography 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 655     Distributed Simulation 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 667     Software Fault Tolerance 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 669     Computational Science Engineering Seminar 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 669D1     Computational Science Engineering Seminar 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 669D2     Computational Science Engineering Seminar 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 680     Mining Biological Sequences 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 700D1    Ph.D. Comprehensive Examination
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 700D2    Ph.D. Comprehensive Examination
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 761     Advanced Topics Theory 2 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 763     Advanced Topics Programming 2 
+
+
+ 
+
+
+
+
+
+
+
+
+
+COMP 766     Advanced Topics Applications 1 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main Office
+                    McConnell Engineering Bldg. Room 318
+                    3480 University 
+                    Montreal, Qc, Canada
+                    H3A 0E9
+ (514) 398-7071 
+ (514) 398-3883
+                
+
+
+
+
+Help Desk
+                    McConnell Engineering Bldg. Room 209N
+                    3480 University 
+                    Montreal, Qc, Canada
+                    H3A 0E9
+
+                        help@cs.mcgill.ca
+                    
+
+ (514) 398-7087 
+ (514) 398-3883 
+
+
+
+
+Quick Links
+Webmail 
+Room Reservations 
+Tech Support 
+Internal
+
+
+
+
+
+
+
+
+View
+            School of Computer Science
+            in a
+            larger map
+        
+
+
+
+
+
+
+
+© McGill
+            University 2016. Credits
+
+
+
+
+
+
+
+
+
+
+

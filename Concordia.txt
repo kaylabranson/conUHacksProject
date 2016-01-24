@@ -1,0 +1,2226 @@
+
+
+
+
+
+
+
+
+
+Department of Computer Science and Software Engineering
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		        var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-2729211-1']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();				
+		    
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-57BSZT');
+
+
+
+Concordia University
+http://www.concordia.ca/content/concordia/en/academics/undergraduate/calendar/current/sec71/71-70.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+Study resources
+Calendar - Graduate
+Calendar - Undergraduate
+Class cancellations
+Class schedules
+Course registration
+Important academic dates
+More academic resourcesCampus services
+Bookstore, Campus stores
+IT services
+Job opportunities
+Security
+Shuttle bus
+Student Service Centre (Birks)
+All campus servicesWhat's new
+Calendar of events
+Latest news
+Media RelationsFaculties, Schools & Colleges
+Arts and Science
+Engineering and Computer Science
+Fine Arts
+John Molson School of Business
+School of Graduate Studies
+All Schools, Colleges & Departments
+
+
+
+
+
+
+Quick links  
+
+
+Webmail
+Libraries
+Cspace
+
+
+Study resources  
+Calendar - Graduate
+Calendar - Undergraduate
+Class cancellations
+Class schedules
+Course registration
+Important academic dates
+More academic resourcesCampus services  
+Bookstore, Campus stores
+IT services
+Job opportunities
+Security
+Shuttle bus
+Student Service Centre (Birks)
+All campus servicesWhat's new  
+Calendar of events
+Latest news
+Media RelationsFaculties, Schools & Colleges  
+Arts and Science
+Engineering and Computer Science
+Fine Arts
+John Molson School of Business
+School of Graduate Studies
+All Schools, Colleges & Departments
+
+
+
+
+
+
+Quick links 
+
+MyConcordia
+Cspace
+Webmail
+Libraries
+Directories
+A-Z
+Maps
+
+
+
+
+
+
+Future students
+Student hub
+Alumni & friends
+Parents
+Faculty & staff
+Media
+
+
+
+
+
+
+
+Concordia University
+
+
+
+
+
+
+
+
+
+
+Concordia University
+
+
+
+
+
+
+
+
+
+
+MyConcordia
+Shuttle bus
+Maps
+
+
+
+About
+
+
+
+
+Administration & governance
+Strategic directions
+Quartier Concordia
+History
+Working at Concordia
+Sustainability hub
+Community engagement
+
+
+
+Quick links
+
+Fast facts
+Academic plan
+Offices A-Z
+News
+
+
+
+
+
+Academics
+
+
+
+
+Undergraduate programs
+Graduate programs
+Faculties, Schools & Colleges
+Continuing education
+Online courses
+Institute for Co-operative Education
+Study abroad
+
+
+
+Quick links
+
+Student Success Centre
+Graduate & Professional Skills
+Academic integrity
+Concordia in your town
+
+
+
+
+
+Admissions
+
+
+
+
+Undergraduate
+Graduate
+International students
+Financial aid & awards
+
+
+
+Quick links
+
+Tuition & fees
+Campus tours
+Housing
+Centre for Continuing Education
+
+
+
+
+
+Campus life
+
+
+
+
+Arts & culture hub
+Athletics & recreation
+Get involved
+Food & housing
+Orientation & new students
+Services  & support
+
+
+
+Quick links
+
+Student Success Centre
+Residence life
+Jobs on campus
+University of the Streets Café
+Dean of Students
+Sustainability Hub
+
+
+
+
+
+Research
+
+
+
+
+Research at a glance
+Resources for researchers
+Students and postdocs
+Funding opportunities
+Prize and award recipients
+
+
+
+Quick links
+
+Research units
+Research chairs
+Research-related policies
+Strategic research plan
+Explore research, teaching & learning
+
+
+
+
+
+International
+
+
+
+
+Visiting & exchange students
+Partnerships
+Academic Visitors
+
+
+
+Quick links
+
+Concordia International
+International Students Office
+Global alumni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Study resources
+Calendar - Graduate
+Calendar - Undergraduate
+Class cancellations
+Class schedules
+Course registration
+Important academic dates
+More academic resourcesCampus services
+Bookstore, Campus stores
+IT services
+Job opportunities
+Security
+Shuttle bus
+Student Service Centre (Birks)
+All campus servicesWhat's new
+Calendar of events
+Latest news
+Media RelationsFaculties, Schools & Colleges
+Arts and Science
+Engineering and Computer Science
+Fine Arts
+John Molson School of Business
+School of Graduate Studies
+All Schools, Colleges & Departments
+
+
+
+
+
+
+Quick links  
+
+
+Webmail
+Libraries
+Cspace
+
+
+Study resources  
+Calendar - Graduate
+Calendar - Undergraduate
+Class cancellations
+Class schedules
+Course registration
+Important academic dates
+More academic resourcesCampus services  
+Bookstore, Campus stores
+IT services
+Job opportunities
+Security
+Shuttle bus
+Student Service Centre (Birks)
+All campus servicesWhat's new  
+Calendar of events
+Latest news
+Media RelationsFaculties, Schools & Colleges  
+Arts and Science
+Engineering and Computer Science
+Fine Arts
+John Molson School of Business
+School of Graduate Studies
+All Schools, Colleges & Departments
+
+
+
+
+
+Information for...  
+
+Future students
+Student hub
+Alumni & friends
+Parents
+Faculty & staff
+Media
+
+
+
+                        $(".role-links-mobile .open-links").on('click', function() {
+                            $this = $(this);
+                            $this.find('.arrow').toggleClass('concordia-arrow-black-down-icon');
+                            $this.find('.arrow').toggleClass('concordia-arrow-black-up-icon');
+                        })
+                    
+
+
+
+
+
+
+    $(document).ready(function() {
+        var $dropdowns = $('.nav li.dropdown');
+        var delay = 300;
+    
+        $dropdowns
+            .on('mouseover', function() {
+                if ($(".header-btn").css("display") == "none") { // Only fire this when not on mobile
+
+                    // Make sure the autocomplete is not showing
+                    $(".ui-autocomplete").css("display","none");
+    
+                    var $this = $(this);
+                    $this.siblings('.open').removeClass('open');
+    
+                    if ($this.prop('hoverTimeout')) {
+                        $this.prop('hoverTimeout', clearTimeout($this.prop('hoverTimeout')));
+                    }
+        
+                    $this.prop('hoverIntent', setTimeout(function() {
+                        $this.addClass('open');
+                    }, 0));
+                }
+            })
+            .on('mouseleave', function() {
+                if ($(".header-btn").css("display") == "none") { // Only fire this when not on mobile
+                    var $this = $(this);
+                    $this.siblings('.open').removeClass('open');
+        
+                    if ($this.prop('hoverIntent')) {
+                        $this.prop('hoverIntent', clearTimeout($this.prop('hoverIntent')));
+                    }
+        
+                    // If the dropdown doesn't have any children, set delay to 0
+                    delay = ($this.find('.dropdown-toggle').length != 0) ? 300 : 0;
+        
+                    $this.prop('hoverTimeout', setTimeout(function() {
+                        $this.removeClass('open');
+                    }, delay));
+                }
+            })
+            .on('click', '.open-btn', function() {
+                $this = $(this);
+                $dropdown = $this.closest('.dropdown');
+                $icon = $this.find('span');
+    
+                $(this).closest('.dropdown').find('.dropdown-menu').slideToggle();
+                $dropdown.toggleClass('open');
+    
+                $icon.toggleClass('concordia-arrow-white-down-icon');
+                $icon.toggleClass('concordia-arrow-white-up-icon');
+            });
+
+
+        // On mobile, make sure search is not showing when menu is opened
+        $(".concordia-hamburger-icon").on("click", function() {
+            if ($("#site-search").hasClass("in")) {
+                $("#site-search").collapse("hide");
+            }
+        });
+    
+        // On mobile, make sure navigation is not showing when search is opened
+        $(".concordia-search-icon.visible-phone").on("click", function() {
+            if ($(".nav-collapse").hasClass("in")) {
+                $(".nav-collapse").collapse("hide");
+            }
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Concordia
+                
+
+
+
+
+
+                    Directories
+                
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+Concordia University
+
+
+
+
+
+
+
+                    
+                    Home
+                    
+                
+
+	         / 
+	        
+
+                    
+                    Academics
+                    
+                
+
+	         / 
+	        
+
+                    
+                    Undergraduate programs
+                    
+                
+
+	         / 
+	        
+
+                    
+                    Undergraduate Calendar
+                    
+                
+
+	         / 
+	        
+
+                    
+                    Undergraduate Calendar 2015-16
+                    
+                
+
+	         / 
+	        
+
+                    
+                    Faculty of Engineering and Computer Science
+                    
+                
+
+	         / 
+	        
+                
+                    Department of Computer Science and Software Engineering
+                    
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+Twitter
+
+
+
+
+LinkedIn
+
+
+
+
+GooglePlus
+
+
+
+
+
+            jQuery(document).ready(function() {
+                "use strict";
+                $ =  jQuery;
+
+                var decal = $('.c-socialbar-cta:not(.horizontal)').parent().width();
+                $('.c-socialbar-cta:not(.horizontal)').css({'margin-left':decal+5});
+                $('.c-socialbar-cta:not(.horizontal)').fadeIn();
+
+
+                $(window).scroll(function() {
+                    socialbar.scroll();
+                });
+            });
+
+            var socialbar = (function(jQuery) {
+                var timeOutId = 0;
+                var jitterBuffer = 20;
+
+                return {
+                    scroll:function() {
+                        var offset = $('.c-socialbar-cta:not(.horizontal)').parent().offset();
+                        var top = offset.top -150;
+                        //alert(offset.top);
+
+                        if ($(window).scrollTop() > top) {
+                            $('.c-socialbar-cta:not(.horizontal)').addClass('fixed');
+                        }
+                        else {
+                            $('.c-socialbar-cta:not(.horizontal)').removeClass('fixed');
+                        }
+                    }
+                };
+            })();
+        
+
+
+
+Department of Computer Science and Software Engineering
+
+
+
+Section 71.70
+
+
+
+Faculty
+
+Chair
+SUDHIR P. MUDUR, PhD Bombay University, PEng; Professor
+ 
+Associate Chair
+THOMAS FEVENS, PhD Queen’s University; Associate Professor
+ 
+Professors
+SABINE BERGLER, PhD Brandeis University
+TIEN D. BUI, PhD York University, ing.
+GREGORY BUTLER, PhD University of Sydney
+BIPIN C. DESAI, PhD McGill University
+EUSEBIUS J. DOEDEL, PhD University of British Columbia
+TERRILL FANCOTT, DSc Université de Paris, ing.
+GOSTA GRAHNE, PhD University of Helsinki
+VOLKER M. HAARSLEV, PhD University of Hamburg
+HOVHANNES A. HARUTYUNYAN, PhD Armenian Academy of Sciences
+BRIGITTE JAUMARD, PhD École Nationale Supérieure des Télécommunications
+ADAM KRZYZAK, PhD University of Wroclaw; Provost’s Distinction
+LATA NARAYANAN, PhD University of Rochester, ing.
+JUERGEN RILLING, PhD University of Illinois
+CHING Y. SUEN, PhD University of British Columbia; Provost’s Distinction
+ 
+Distinguished Professors Emeriti
+J. WILLIAM ATWOOD, PhD University of Illinois
+JOHN MCKAY, PhD University of Edinburgh; Provost’s Distinction
+ 
+Professors Emeriti
+V.S. ALAGAR, PhD McGill University
+VACLAV CHVATAL, PhD University of Waterloo; Provost’s Distinction
+DAVID FORD, PhD Ohio State University
+PETER GROGONO, PhD Concordia University, PEng
+CLEMENT LAM, PhD California Institute of Technology
+H.F. LI, PhD University of California, Berkeley
+G. MARTIN, MSc University of New Brunswick
+JAROSLAV OPATRNY, PhD University of Waterloo
+THIRUVENGADAM RADHAKRISHNAN, PhD Indian Institute of Technology, Kanpur, PEng
+R. SHINGHAL, PhD McGill University
+ 
+Associate Professors
+CONSTANTINOS CONSTANTINIDES, PhD Illinois Institute of Technology, PEng
+TODD EAVIS, PhD Dalhousie University
+DHRUBAJYOTI GOSWAMI, PhD University of Waterloo, PEng
+RAJAGOPALAN JAYAKUMAR, PhD Concordia University
+S.L. KLASA, PhD University of Geneva
+LEILA KOSSEIM, PhD Université de Montréal
+OLGA ORMANDJIEVA, PhD Concordia University, ing.
+JOEY PAQUET, PhD Université Laval
+DAVID K. PROBST, DSc Université de Bruxelles
+EMAD SHIHAB, PhD Queen’s University
+NEMATOLLAAH SHIRI‑VARNAAMKHAASTI, PhD Concordia University
+RENÉ WITTE, DrIng University of Karlsruhe
+YUHONG YAN, PhD Tsinghua University/Leipzig University, PEng
+ 
+Assistant Professors
+TIBERIU POPA, PhD University of British Columbia
+PETER RIGBY, PhD University of Victoria
+NIKOLAOS TSANTALIS, PhD University of Macedonia
+Extended Term Appointment
+AIMAN HANNA, MCompSc Concordia University, PEng
+ 
+Affiliate Professors
+P. DINI, PhD Université de Montréal
+T. KASVAND, PhD University of British Columbia
+L. LAM, PhD University of Toronto
+ANDRZEJ PELC, PhD University of Warsaw, Poland
+ 
+Affiliate Associate Professor
+BENOIT LAROSE, PhD Université de Montréal
+ 
+Affiliate Assistant Professors
+M. KASSAB, PhD Concordia University
+T. KENGATHARAM, PhD Concordia University
+M. MOHAMMAD, PhD Concordia University
+SERGUEI MOKHOV, PhD Concordia University
+K. PITULA, PhD Concordia University
+MIAO SONG, PhD Concordia University
+
+ For the complete list of faculty members, please consult the Department website.
+
+Location
+
+Sir George Williams Campus
+ Engineering, Computer Science and Visual Arts Complex, Room: EV 003.139
+514-848-2424, ext. 3000
+
+Objectives
+
+Computer Science is the study and design of computer systems: hardware and software. Computer scientists are primarily concerned with the design of algorithms, languages, hardware architecture, systems software, applications software and tools. Applications range from simple game playing to the control of space vehicles, power plants and factories, from banking machines to intelligent fault and medical diagnosis. Computer professionals, in short, are concerned with the creation of computer and information systems for the benefit of society.
+Software Engineering applies the principles and practices of engineering to the creation of reliable, efficient, and economical software. Software Engineering has its roots in the theory and mathematics of computer science, but carries this knowledge further towards creative applications such as software control systems for vehicles, aircraft, industrial processes; animation, interactive video, virtual reality, commercial systems for banking and financial analysis; health systems for the analysis of biological systems and the control of therapeutic devices.
+It shares with engineering the rigorous methodology of analysis and design in the search for economical, reliable, and efficient solutions. Software engineers are trained in all aspects of the software life cycle, from specification through analysis and design, to testing, maintenance and evaluation of the product. They are concerned with safety and reliability of the product as well as cost and schedule of the development process. The discipline is particularly applicable to very large software projects, as well as the re‑engineering of existing products.
+
+71.70.1    Curriculum for the Degree of Bachelor of/Baccalaureate in Computer Science
+
+The Computer Science program emphasizes fundamentals and techniques that remain relevant and useful for many years after graduation. The program consists of a combination of core courses in computer science, elective courses in computer science and mathematics, and some free electives. The Computer Science Core provides a basic and broad study of theory, mathematical basics, programming methodology, computer architecture, data structures, operating systems, and software engineering. The option courses are designed to provide an integrated yet specialized training in particular application areas of the discipline. Students may choose either the General Program or one of eight options. Each option involves the study of selected advanced elective courses in computer science to provide further depth in computer science and the particular application area.
+The General Program and each option constitute a 90‑credit program that consists of courses in the following groups: Computer Science Core, Complementary Core, Option‑Specific Courses, Computer Science Electives, Mathematics Electives, and General Electives.
+
+
+The General Program is a major in Computer Science that emphasizes an exposure to a breadth of topics in Computer Science.
+The Computer Games option is a major in Computer Science that deals with the design and implementation of computer games, and the tools and techniques that are useful in developing software for computer games.
+The Web Services and Applications option is a major in Computer Science that deals with the analysis, design, and implementation of services and applications delivered over the web.
+The Computer Systems option is a major in Computer Science that focuses on state‑of‑the‑art hardware and software platforms and on the tools and techniques necessary to develop software on such platforms.
+The Software Systems option is a major in Computer Science that gives a firm grounding in diverse tools and techniques required for a wide variety of software systems.
+The Information Systems option combines a major in Computer Science with approximately a third of the credits from the John Molson School of Business to create a program focusing on business applications of computer systems.
+The Computer Applications option combines a major in Computer Science with a minor in a discipline of the student’s choice.
+The Computation Arts option combines a major in Computer Science with a major in Fine Arts specializing in the design of interactive multimedia.
+The Mathematics and Statistics option combines a major in Computer Science with a major in Mathematics and Statistics.
+
+There is an honours program corresponding to the General Program and each option (see §71.70.4). In addition, all programs are offered in the co‑operative format, with alternating study and work terms, for a limited number of students with suitable qualifications (see §24).
+
+71.70.2    Degree Requirements
+
+To be recommended for the degree of BCompSc, students must satisfactorily complete an approved program of at least 90 credits comprising the courses of the Computer Science Core and those courses specified for their particular program in accordance with the graduation requirements of §71.10.5.
+Students may not register for a 400‑level course before completing all of the 200‑level Computer Science Core courses of their program.
+The Faculty of Engineering and Computer Science is committed to ensuring that its students possess good writing skills. Hence, every student in an undergraduate degree program is required to demonstrate competence in writing English or French prior to graduation.
+All students admitted to the Faculty of Engineering and Computer Science must meet the writing skills requirement as outlined in §71.20.7 (Writing Skills Requirement).
+If a student has satisfied the writing skills requirement prior to transferring to the Faculty of Engineering and Computer Science, that student is deemed to have satisfied the writing skills requirement.
+Newly admitted students are strongly encouraged to meet the requirement very early in their program (fall term of first year for students starting in September or winter term of first year for students starting in January) to avoid the risk of delayed graduation should remedial work prove necessary. Students who are required to take ESL courses should meet the Faculty writing skills requirements in the term following completion of their ESL courses.
+
+Students registered in the Computer Science program must complete a minimum of 90 credits. The program offers the General Program and eight options (see §71.70.1). All options consist of the Computer Science Core (33 credits), the Complementary Core (6 credits), Option‑Specific Courses, Computer Science Electives, Mathematics Electives, and General Electives. 
+
+Computer Science Core (33 credits)
+Credits
+ 
+ 
+ 
+COMP 228
+System Hardware
+3.00
+COMP 232
+Mathematics for Computer Science
+3.00
+COMP 233
+Probability and Statistics for Computer Science
+3.00
+COMP 248
+Object‑Oriented Programming I
+3.50
+COMP 249
+Object‑Oriented Programming II
+3.50
+COMP 335
+Introduction to Theoretical Computer Science
+3.00
+COMP 346
+Operating Systems
+4.00
+COMP 348
+Principles of Programming Languages
+3.00
+COMP 352
+Data Structures and Algorithms
+3.00
+COMP 354
+Introduction to Software Engineering
+4.00
+ 
+ 
+_____
+ 
+ 
+33.00
+
+ 
+
+Complementary Core (6 credits)
+Credits
+ 
+ 
+ 
+ENCS 282
+Technical Writing and Communication
+3.00
+ENCS 393
+Social and Ethical Dimensions of Information and
+ 
+ 
+   Communication Technologies
+3.00
+ 
+ 
+_____
+ 
+ 
+6.00
+
+
+Computer Science Electives
+
+Computer Science Electives must be chosen from the following list:
+
+
+All COMP courses with numbers 325 or higher.
+SOEN 287, 321, 331, 387, 422, 423, 487.
+COMP and SOEN courses with numbers between 6000 and 6951 (maximum of eight credits, and with permission from the Department).
+
+In every option, any credits exceeding the required number of Computer Science Elective credits will accrue towards the General Elective credits.
+ 
+
+Mathematics Electives
+Mathematics Electives must be chosen from the following list: 
+
+ Credits
+ 
+ 
+ 
+COMP 339*
+Combinatorics
+3.00
+COMP 361*
+Elementary Numerical Methods
+3.00
+COMP 367*
+Techniques in Symbolic Computation
+3.00
+ENGR 213
+Applied Ordinary Differential Equations
+3.00
+ENGR 233
+Applied Advanced Calculus
+3.00
+MAST 218
+Multivariable Calculus I
+3.00
+MAST 219
+Multivariable Calculus II
+3.00
+MAST 224
+Introduction to Optimization
+3.00
+MAST 234
+Linear Algebra and Applications I
+3.00
+MAST 235
+Linear Algebra and Applications II
+3.00
+MAST 332*
+Techniques in Symbolic Computation
+3.00
+MAST 334*
+Numerical Analysis
+3.00
+MATH 251
+Linear Algebra I
+3.00
+MATH 252
+Linear Algebra II
+3.00
+MATH 339*
+Combinatorics
+3.00
+MATH 392
+Elementary Number Theory
+3.00
+
+
+In every option, any credits exceeding the required number of Mathematics Elective credits will accrue towards the General Elective credits.
+*Students cannot receive credit for both COMP 339 and MATH 339; COMP 361 and MAST 334; COMP 367 and MAST 332.
+
+General Electives
+ General Electives must be chosen from the following list:
+
+Computer Science Electives as mentioned above.
+Mathematics Electives as mentioned above.
+General Education Electives found in §71.20.2 and §71.20.6.
+Basic and Natural Science Courses list found in §71.70.9.
+
+A course outside this list may qualify as a General Elective only with prior written permission on an ENCS Student Request form, obtainable from the Office of Student Academic Services in the Faculty of Engineering and Computer Science.
+
+1. General Program
+Credits
+ 
+ 
+ 
+ 
+Computer Science Core
+33.00
+ 
+Complementary Core
+  6.00
+ 
+Computer Science Electives*
+30.00
+ 
+Mathematics Electives
+  6.00
+ 
+General Electives
+15.00
+ 
+ 
+_____
+ 
+ 
+90.00
+
+*Note: Maximum of 12 credits from any one of Computer Games Electives, Web Services and Applications Electives, Computer Systems Electives, or Software Systems Core.
+ 
+
+2. Computer Games Option
+Credits
+ 
+ 
+ 
+ 
+Computer Science Core
+33.00
+ 
+Complementary Core
+  6.00
+ 
+Computer Games Electives
+24.00
+ 
+Computer Science Electives
+  6.00
+ 
+Mathematics Electives*
+  6.00
+ 
+General Electives
+15.00
+ 
+ 
+_____
+ 
+ 
+90.00
+
+*Note: Students must take COMP 361 as part of their Mathematics Electives.
+
+Computer Games Electives
+Students must complete six courses (24 credits) from the following list of courses, including all the courses marked *.
+
+ 
+ 
+Credits
+ 
+ 
+ 
+COMP 345*
+Advanced Program Design with C++
+4.00
+COMP 353
+Databases
+4.00
+COMP 371*
+Computer Graphics
+4.00
+COMP 376*
+Introduction to Game Development
+4.00
+COMP 472
+Artificial Intelligence
+4.00
+COMP 476
+Advanced Game Development
+4.00
+COMP 477
+Animation for Computer Games
+4.00
+
+ 
+
+3. Web Services and Applications Option
+Credits
+ 
+ 
+ 
+ 
+Computer Science Core
+33.00
+ 
+Complementary Core
+  6.00
+ 
+Web Services and Applications Electives
+22.00
+ 
+Computer Science Electives
+  8.00
+ 
+Mathematics Electives
+  6.00
+ 
+General Electives
+15.00
+ 
+ 
+_____
+ 
+ 
+90.00
+
+Web Services and Applications Electives
+ Students must complete six courses (22 credits) from the following list of courses, including all the courses marked *.
+
+ 
+ 
+Credits
+ 
+ 
+ 
+COMP 353*
+Databases
+4.00
+COMP 445
+Data Communication and Computer Networks
+4.00
+COMP 479
+Information Retrieval and Web Search
+4.00
+SOEN 287*
+Web Programming
+3.00
+SOEN 387*
+Web‑Based Enterprise Application Design
+3.00
+SOEN 423
+Distributed Systems
+4.00
+SOEN 487
+Web Services and Applications
+4.00
+
+ 
+
+4. Computer Systems Option
+Credits
+ 
+ 
+ 
+ 
+Computer Science Core
+33.00
+ 
+Complementary Core
+  6.00
+ 
+Computer Systems Electives
+22.00
+ 
+Computer Science Electives
+  8.00
+ 
+Mathematics Electives
+  6.00
+ 
+General Electives
+15.00
+ 
+ 
+_____
+ 
+ 
+90.00
+
+Computer Systems Electives
+ Students must complete six courses (22 credits) from the following list of courses, including all the courses marked *.
+
+ 
+ 
+Credits
+ 
+ 
+ 
+COMP 326*
+Computer Architecture
+3.00
+COMP 345*
+Advanced Program Design with C++
+4.00
+COMP 426
+Multicore Programming
+4.00
+COMP 428
+Parallel Programming
+4.00
+COMP 445
+Data Communication and Computer Networks
+4.00
+SOEN 422*
+Embedded Systems and Software
+4.00
+SOEN 423
+Distributed Systems
+4.00
+
+ 
+
+5. Software Systems Option
+Credits
+ 
+ 
+ 
+ 
+Computer Science Core
+33.00
+ 
+Complementary Core
+  6.00
+ 
+Software Systems Core
+20.00
+ 
+Computer Science Electives
+13.00
+ 
+Mathematics Electives
+  6.00
+ 
+General Electives
+12.00
+ 
+ 
+_____
+ 
+ 
+90.00
+
+ 
+
+Software Systems Core
+Credits
+ 
+ 
+ 
+COMP 326
+Computer Architecture
+3.00
+COMP 339
+Combinatorics
+3.00
+COMP 353
+Databases
+4.00
+COMP 361
+Elementary Numerical Methods
+3.00
+COMP 445
+Data Communication and Computer Networks
+4.00
+COMP 465
+Design and Analysis of Algorithms
+3.00
+ 
+ 
+_____
+ 
+ 
+20.00
+
+ 
+
+6. Information Systems Option
+Credits
+ 
+ 
+ 
+ 
+Computer Science Core
+33.00
+ 
+Complementary Core
+6.00
+ 
+Information Systems Electives
+31.00
+ 
+Computer Science Electives
+14.00
+ 
+Mathematics Electives
+6.00
+ 
+ 
+_____
+ 
+ 
+90.00
+
+Information Systems Electives
+ Students must complete 10 courses (31 credits) from the following list of courses, including all the courses marked *.
+
+ 
+ 
+Credits
+ 
+ 
+ 
+ACCO 220*
+Financial and Managerial Accounting
+3.00
+BSTA 445
+Statistical Software for Data Management and Analysis
+3.00
+BTM 387
+E‑Business
+3.00
+BTM 430
+Enterprise Resource Planning and
+ 
+ 
+Information Technology Integration
+3.00
+COMM 210*
+Contemporary Business Thinking
+3.00
+COMM 222*
+Organizational Behaviour and Theory
+3.00
+COMM 223*
+Marketing Management I
+3.00
+COMM 225*
+Production and Operations Management
+3.00
+COMM 308*
+Introduction to Finance
+3.00
+COMP 353*
+Databases
+4.00
+ECON 201*
+Introduction to Microeconomics
+3.00
+SCOM 361
+Management Science Models for Operations Management
+3.00
+SCOM 372
+Supply Chain Planning and Control
+3.00
+
+ 
+
+7. Computer Applications Option
+Credits
+ 
+ 
+ 
+ 
+Computer Science Core
+33.00
+ 
+Complementary Core
+  6.00
+ 
+Computer Science Electives
+18.00
+ 
+Mathematics Electives
+  6.00
+ 
+Minor and General Electives
+27.00
+ 
+ 
+_____
+ 
+ 
+90.00
+
+Students must satisfy the requirements for a minor program in any other department in the University.
+Students must declare their minor by the end of their first year.
+
+8. Computation Arts Option
+ See §71.80or details.
+
+9. Mathematics and Statistics Option
+ See §71.85 for details.
+
+71.70.3    Extended Credit Program
+
+Students admitted to an Extended Credit Program (ECP) under the provisions of Sections 13.3.2 or 13.8.1 must successfully complete a minimum of 120 credits including:
+90   Program requirements as set out in Section 71.70.2
+12   MATH 2023, 2033, 2043, 2053
+6     Chosen from courses in Humanities or Social Sciences in Section 71.20.2
+12   ECP elective credits chosen from the following lists, depending on the student’s program:
+a)    General Program, and Computer Applications, Computer Games, Software Systems, and Web 
+        Services and Applications Options: 
+12    elective credits chosen from outside the Faculty of Engineering and Computer Science, in
+        consultation with the undergraduate program director.
+b)    Computation Arts Option: 
+12    elective credits chosen from outside the Faculty of Engineering and Computer Science and the 
+        Department of Design and Computation Arts, in consultation with the undergraduate program director.
+c)     Information Systems Option:
+12    elective credits chosen from outside the John Molson School of Business and the Department of
+        Computer Science and Software Engineering, in consultation with the undergraduate program director.
+d)     Mathematics and Statistics Option:
+12     elective credits chosen from outside the Faculty of Engineering and Computer Science and the
+         Department of Mathematics and Statistics, in consultation with the undergraduate program director.
+e)     Computer Systems Option:
+        CHEM 2053
+        PHYS 2043, 2053
+        and 3 elective credits chosen from outside the Faculty of Engineering and Computer Science, in
+        consultation with the undergraduate program director. 
+
+71.70.4    Honours Program
+
+Students should refer to §16.2.3 of the Calendar for academic regulations for the honours program. The following regulations are additional requirements for the Honours BCompSc program.
+
+Applications to enter an honours program must be submitted to the Office of the Associate Dean (Student Academic Services) at least three months before the start of the term in which the student wishes to enter an honours program.
+Students must complete at least 30 credits towards their degree before entering an honours program.
+Each student in an honours program must have an honours advisor who approves the student’s choice of courses prior to each registration.
+Students who are required to withdraw from an honours program may continue in the regular program of their option or General Program provided they are in acceptable or conditional standing according to the academic regulations in §71.10.3.
+
+Course Requirements for Honours Programs
+ Honours students must fulfill the requirements of their option. In addition, to receive an honours degree:
+
+The student must have a final graduation GPA of at least 3.30.
+The student must successfully complete the course COMP 490.
+For students in the General Program, and the Computer Games, Computer Systems, Web Services and Applications, and Software Systems Options, at least six of the General Electives credits must be chosen from the list of Computer Science Electives.
+
+
+71.70.5    Minor in Computer Science
+
+NOTE: Admission profile is 10.12.
+
+Minor in Computer Science
+Credits
+ 
+ 
+ 
+COMP 228
+System Hardware
+3.00
+COMP 232
+Mathematics for Computer Science
+3.00
+COMP 248
+Object‑Oriented Programming I
+3.50
+COMP 249
+Object‑Oriented Programming II
+3.50
+COMP 352
+Data Structures and Algorithms
+3.00
+ 
+Computer Science Electives (see §71.70.2)
+9.00
+ 
+ 
+_____
+ 
+ 
+25.00
+
+Students who require any of the above courses as part of their major should replace these courses with elective courses chosen from the list of Computer Science Electives.
+
+71.70.6    Programs Related to Computer Science
+
+Both major and minor programs in Management Information Systems can be found in the John Molson School of Business Section of the Undergraduate Calendar, §61.
+The Faculty of Fine Arts and the Department of Computer Science and Software Engineering offer complementary major programs. Students who take the Computer Applications Option (see §71.70.2 above) can also take the Major in Computation Arts and Computer Science (see §71.80, and the Fine Arts Section, §81) or the Joint Major in Mathematics and Statistics and Computer Applications (see §71.85, and the Mathematics and Statistics Section, §31.200).
+
+71.70.7    Industrial Experience and Reflective Learning Courses
+Students employed full‑time in a computer science position during their non‑study terms may have this Industrial Experience listed on their record, provided they successfully complete the Reflective Learning course associated with this work term.
+Industrial Experience work terms will be coded as COMP 107 and 207, and the associated Reflective Learning courses will be coded as COMP 108 and 208 respectively.
+Students may only register for these courses with the permission of the Faculty.
+The Industrial Experience terms COMP 107 and 207 carry no credit value and are used to indicate that the student is on an Industrial Experience term.
+The COMP 108 and 208 Industrial Experience Reflective Learning courses are worth three credits and are marked on a pass/fail basis. They are above and beyond the credit requirements of the student’s program and are not transferable nor are they included in the full‑ or part‑time assessment status.
+Students studying for a co‑op work term or CIADI term should not register for these Industrial Experience and Reflective Learning courses.
+
+71.70.8    Curriculum for the Degree of BEng in Software Engineering
+
+The Software Engineering program is built on the fundamentals of computer science, an engineering core, and a discipline core in Software Engineering to cover the engineering approach to all phases of the software process and related topics.
+The curriculum builds on the traditional computer science core topics of computer mathematics, theory, programming methodology, and mainstream applications to provide the computing theory and practice which underlie the discipline. The engineering core covers basic science, professional topics, and introduces the engineering approach to problem solving. The program core in Software Engineering includes advanced programming techniques, software specification, design, architecture, as well as metrics, security, project management, and quality control. The options cover a broad range of advanced topics, from formal methods to distributed systems.
+
+71.70.9    Degree Requirements for the BEng in Software Engineering
+
+Students registered in the Software Engineering program must complete a minimum of 120 credits during four years of full‑time study. Students may choose either the general program or one of three options: Computer Games; Web Services and Applications; and Real‑Time, Embedded, and Avionics Software. The program consists of the Engineering Core, Software Engineering Core, general program or an option, and electives.
+
+Engineering Core (30.5 credits)
+ See §71.20.5
+
+Software Engineering Core
+Credits
+ 
+ 
+ 
+SOEN 228
+System Hardware
+4.00
+SOEN 287
+Web Programming
+3.00
+SOEN 321
+Information Systems Security
+3.00
+SOEN 331
+Introduction to Formal Methods for Software Engineering
+3.00
+SOEN 341
+Software Process
+3.00
+SOEN 342
+Software Requirements and Specifications
+3.00
+SOEN 343
+Software Architecture and Design I
+3.00
+SOEN 344
+Software Architecture and Design II
+3.00
+SOEN 345
+Software Testing, Verification and Quality Assurance
+3.00
+SOEN 357
+User Interface Design
+3.00
+SOEN 384
+Management, Measurement and Quality Control
+3.00
+SOEN 385
+Control Systems and Applications
+3.00
+SOEN 390
+Software Engineering Team Design Project
+3.50
+SOEN 490
+Capstone Software Engineering Design Project
+4.00
+ 
+Computer Science Group
+23.00
+ 
+Two Basic and Natural Science courses
+6.00
+ 
+ 
+_____
+ 
+ 
+73.50
+ 
+ 
+ 
+Computer Science Group
+Credits
+ 
+ 
+ 
+COMP 232
+Mathematics for Computer Science
+3.00
+COMP 248
+Object‑Oriented Programming I
+3.50
+COMP 249
+Object‑Oriented Programming II
+3.50
+COMP 335
+Introduction to Theoretical Computer Science
+3.00
+COMP 346
+Operating Systems
+4.00
+COMP 348
+Principles of Programming Languages
+3.00
+COMP 352
+Data Structures and Algorithms
+3.00
+ 
+ 
+_____
+ 
+ 
+23.00
+ 
+ 
+ 
+Basic and Natural Science Courses
+Two Basic and Natural Science courses must be selected from the following including at least one course marked *:
+ 
+ 
+ 
+ 
+ 
+ 
+Credits
+ 
+ 
+ 
+BIOL 206*
+Elementary Genetics
+3.00
+BIOL 261*
+Molecular and General Genetics
+3.00
+CHEM 217*
+Introductory Analytical Chemistry I
+3.00
+CHEM 221*
+Introductory Organic Chemistry I
+3.00
+CIVI 231
+Geology for Civil Engineers
+3.00
+ELEC 321
+Introduction to Semiconductor Materials and Devices
+3.50
+ENGR 242
+Statics
+3.00
+ENGR 243
+Dynamics
+3.00
+ENGR 251
+Thermodynamics I
+3.00
+ENGR 361
+Fluid Mechanics I
+3.00
+MECH 221*
+Materials Science
+3.00
+PHYS 252*
+Optics
+3.00
+PHYS 384*
+Introduction to Astronomy
+3.00
+PHYS 385*
+Astrophysics
+3.00
+
+ 
+General Program
+Students must complete at least 16 credits chosen from the electives list.
+
+Options
+ Students must complete at least 16 credits with a minimum of 15 credits from one of the options listed below, including all the courses marked *, and at least one course marked **, and the remainder chosen from the electives list.
+
+Computer Games (CG) Option
+Credits
+ 
+ 
+ 
+COMP 345
+Advanced Program Design with C++
+4.00
+COMP 371*
+Computer Graphics
+4.00
+COMP 376*
+Introduction to Game Development
+4.00
+COMP 472
+Artificial Intelligence
+4.00
+COMP 476**
+Advanced Game Development
+4.00
+COMP 477**
+Animation for Computer Games
+4.00
+ 
+ 
+ 
+Web Services and Applications (WSA) Option
+Credits
+ 
+ 
+ 
+COMP 353*
+Databases
+4.00
+COMP 445
+Data Communication and Computer Networks
+4.00
+COMP 479**
+Information Retrieval and Web Search
+4.00
+SOEN 387*
+Web‑Based Enterprise Application Design
+3.00
+SOEN 487**
+Web Services and Applications
+4.00
+ 
+ 
+ 
+Real‑Time, Embedded, and Avionics Software (REA) Option
+Credits
+ 
+ 
+ 
+AERO 480**
+Flight Control Systems
+3.50
+AERO 482**
+Avionic Navigation Systems
+3.00
+COEN 320
+Introduction to Real‑Time Systems
+3.00
+COMP 345
+Advanced Program Design with C++
+4.00
+COMP 444
+System Software Design
+4.00
+SOEN 422*
+Embedded Systems and Software
+4.00
+SOEN 423*
+Distributed Systems
+4.00
+ 
+ 
+ 
+Electives
+Credits
+ 
+ 
+ 
+COMP 345
+Advanced Program Design with C++
+4.00
+COMP 353
+Databases
+4.00
+COMP 371
+Computer Graphics
+4.00
+COMP 426
+Multicore Programming
+4.00
+COMP 428
+Parallel Programming
+4.00
+COMP 442
+Compiler Design
+4.00
+COMP 445
+Data Communication and Computer Networks
+4.00
+COMP 451
+Database Design
+4.00
+COMP 465
+Design and Analysis of Algorithms
+3.00
+COMP 472
+Artificial Intelligence
+4.00
+COMP 473
+Pattern Recognition
+4.00
+COMP 474
+Intelligent Systems
+4.00
+COMP 478
+Image Processing
+4.00
+COMP 479
+Information Retrieval and Web Search
+4.00
+SOEN 298
+System Hardware Lab
+1.00
+SOEN 422
+Embedded Systems and Software
+4.00
+SOEN 423
+Distributed Systems
+4.00
+SOEN 448
+Management of Evolving Systems
+3.00
+SOEN 491
+Software Engineering Project
+1.00
+ENGR 411
+Special Technical Report
+1.00
+
+
+71.70.10    Course Descriptions
+
+Please note that new course numbers have been implemented. For equivalent course numbers under the old system, please consult §200.6.
+ Students from outside the Faculty of Engineering and Computer Science who are not registered in a Computer Science program may not take more than five COMP courses numbered higher than 212.
+ Students from outside the Faculty of Engineering and Computer Science who are registered for the Minor in Computer Science may not take more than 30 credits of COMP courses numbered higher than 212.
+
+Computer Science
+Software Engineering
+
+
+ COMPUTER SCIENCE
+
+COMP 108     Computer Science Industrial Experience Reflective Learning I (3 credits)
+Prerequisite: Permission of the Faculty. This course is a reflective learning module for students in their related field which is based on their academic requirements and their first industrial experience.
+ 
+COMP 201     Introduction to Computing (3 credits)
+Prerequisite: MATH 201 or equivalent. Overview of computing systems. Problem solving and algorithms. Introduction to computer programming. Hardware, software and data storage, programming languages, data organization, program design and development. Lectures: three hours per week. Tutorial: one hour per week.
+NOTES: 1. Students who have received credit for COMP 218, COMP 248, or COEN 243 may not take this course for credit.
+2. This course may not be taken for credit in the regular undergraduate programs in Engineering and Computer Science.
+ 
+COMP 208     Computer Science Industrial Experience Reflective Learning II (3 credits)
+Prerequisite: COMP 108 and permission of the Faculty. This course expands on the students’ second industrial experience term in their related field of study to further develop their knowledge and work‑related skills.
+ 
+COMP 218     Fundamentals of Programming (3 credits)
+Prerequisite: MATH 201 or equivalent (no prior experience with computers is assumed). Computers and computing: problem solving with computers, basic data types, expressions, assignments, control structures, simple library functions, programmer‑defined functions, arrays of basic types. Basic elements of object‑oriented programming: classes, objects and methods. Lectures: three hours per week. Tutorial: one hour per week.
+NOTE: Students who have received credit for COMP 248 may not take this course for credit.
+ 
+COMP 228     System Hardware (3 credits)
+Prerequisite: COMP 248; MATH 203 or Cegep Mathematics 103 or NYA previously or concurrently; MATH 204 or Cegep Mathematics 105 or NYC previously or concurrently. Levels of system abstraction and von Neumann model. Basics of digital logic design. Data representation and manipulation. Instruction set architecture. Processor internals. Assembly language programming. Memory subsystem and cache management. I/O subsystem. Introduction to network organization and architecture. Lectures: three hours per week. Tutorial: two hours per week.
+NOTE: Students who have received credit for SOEN 228 may not take this course for credit.
+ 
+COMP 232     Mathematics for Computer Science (3 credits)
+Prerequisite: MATH 203 or Cegep Mathematics 103 or NYA previously or concurrently; MATH 204 or Cegep Mathematics 105 or NYC previously or concurrently. Sets. Propositional logic and predicate calculus. Functions and relations. Elements of number theory. Proof techniques: direct proof, indirect proof, proof by contradiction, proof by induction. Lectures: three hours per week. Tutorial: two hours per week.
+NOTE: Students who have received credit for COMP 238 or COEN 231 may not take this course for credit.
+ 
+COMP 233     Probability and Statistics for Computer Science (3 credits)
+Prerequisite: MATH 205 or Cegep Mathematics 203 or NYB. Combinatorics. Axioms of probability. Conditional probability. Discrete and continuous probability distributions. Expectation and moments. Hypothesis testing. Parameter estimation. Correlation and linear regression. Applications to computer science. Lectures: three hours per week. Tutorial: two hours per week.
+NOTE: Students who have received credit for ENGR 371, STAT 249, STAT 250, COMM 215, MAST 221, MAST 333 may not take this course for credit.
+ 
+COMP 248     Object‑Oriented Programming I (3.5 credits)
+Prerequisite: MATH 204 or Cegep Mathematics 105 or NYC previously or concurrently. Introduction to programming. Basic data types, variables, expressions, assignments, control flow. Classes, objects, methods. Information hiding, public vs. private visibility, data abstraction and encapsulation. References. Arrays. Lectures: three hours per week. Tutorial: two hours per week. Laboratory: one hour per week.
+ 
+COMP 249     Object‑Oriented Programming II (3.5 credits)
+Prerequisite: COMP 248; MATH 203 or Cegep Mathematics 103 or NYA; MATH 205 or Cegep Mathematics 203 or NYB previously or concurrently. Design of classes. Inheritance. Polymorphism. Static and dynamic binding. Abstract classes. Exception handling. File I/O. Recursion. Interfaces and inner classes. Graphical user interfaces. Generics. Collections and iterators. Lectures: three hours per week. Tutorial: two hours per week. Laboratory: one hour per week.
+
+COMP 318     Introduction to Database Applications (4 credits)
+Prerequisite: COMP 218 or COMP 248, or a course in C, C++, or Java. This is a hands‑on course on database technology intended for non‑computer science students in engineering, science, business, or arts. It emphasizes practical issues in application development while introducing the fundamentals of databases with a focus on the relational data model and the Structured Query Language (SQL). Upon completion of this course, students will be able to design and implement databases, and develop user interfaces to access, search, and update the database through the Internet using the web technology. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.
+NOTE: Students who have received credit for COMP 353 may not take this course for credit.
+NOTE: Students in the BCompSc program may not take this course for credit.
+ 
+COMP 326     Computer Architecture (3 credits)
+Prerequisite: COMP 346. Computer architecture models: control‑flow and data‑flow. Concurrency and locality, data dependency theory. Instruction level parallelism. Instruction scheduling. Pipelined processors. Vector processors. Thread level parallelism. Multiprocessors. Shared memory models. Coherence protocols. Interconnection networks. Performance issues. Advanced topics in contemporary computer architectures. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+COMP 335     Introduction to Theoretical Computer Science (3 credits)
+Prerequisite: COMP 232 or COEN 231; COMP 249 or COEN 244. Finite state automata and regular languages. Push‑down automata and context‑free languages. Pumping lemmas. Applications to parsing. Turing machines. Unde­cidability and decidability. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+COMP 339     Combinatorics (3 credits)
+Prerequisite: COMP 232 or 18 credits in post‑Cegep Mathematics. General principles of counting, permutations, combinations, identities, partitions, generating functions, Fibonacci numbers, Stirling numbers, Catalan numbers, principle of inclusion‑exclusion. Graphs, subgraphs, isomorphism, Euler graphs, Hamilton paths and cycles, planar graphs, Kuratowski’s Theorem, trees, colouring, 5‑colour theorem, matching, Hall’s theorem.
+NOTE: Students who have received credit for MATH 339 may not take this course for credit.
+ 
+COMP 345     Advanced Program Design with C++ (4 credits)
+Prerequisite: COMP 352 previously or concurrently. Introduction to C++. I/O with stream classes. Pointers and their uses. The Standard Template Library (STL): containers, algorithms, iterators, adaptors, function objects. Class design: constructors, destructors, operator overloading, inheritance, virtual functions, exception handling, memory management. Advanced topics: libraries, locales, STL conventions, concurrency, template metaprogramming. Applications of C++: systems, engineering, games programming. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 346     Operating Systems (4 credits)
+Prerequisite: COMP 228 or SOEN 228; COMP 352. Fundamentals of operating system functionalities, design and implementation. Multiprogramming: processes and threads, context switching, queuing models and scheduling. Interprocess communication and synchronization. Principles of concurrency. Synchronization primitives. Deadlock detection and recovery, prevention and avoidance schemes. Memory management. Device management. File systems. Protection models and schemes. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.
+NOTE: Students who have received credit for COEN 346 may not take this course for credit.
+ 
+COMP 348     Principles of Programming Languages (3 credits)
+Prerequisite: COMP 249. Survey of programming paradigms: Imperative, functional, and logic programming. Issues in the design and implementation of programming languages. Declaration models: binding, visibility, and scope. Type systems, including static and dynamic typing. Parameter passing mechanisms. Hybrid language design. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+COMP 352     Data Structures and Algorithms (3 credits)
+Prerequisite: COMP 232 previously or concurrently; COMP 249. Abstract data types: stacks and queues, trees, priority queues, dictionaries. Data structures: arrays, linked lists, heaps, hash tables, search trees. Design and analysis of algorithms: asymptotic notation, recursive algorithms, searching and sorting, tree traversal, graph algorithms. Lectures: three hours per week. Tutorial: one hour per week.
+NOTE: Students who have received credit for COEN 352 may not take this course for credit.
+ 
+COMP 353     Databases (4 credits)
+Prerequisite: COMP 232 or COEN 231; COMP 352 or COEN 352. Introduction to database management systems. Conceptual database design: the entity‑relationship model. The relational data model and relational algebra: functional dependencies and normalization. The SQL language and its application in defining, querying, and updating databases; integrity constraints; triggers. Developing database applications. Other data models: Datalog. Object‑oriented data model and ODL. Semi‑structured data. Project. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.
+ 
+COMP 354     Introduction to Software Engineering (4 credits)
+Prerequisite: COMP 352; ENCS 282. Software development process models (e.g. linear vs. iterative). Project management; roles, activities and deliverables for each software life cycle phase. Requirements management: analysis, elicitation, and scope. Architecture, design and the mapping of requirements to design and design to implementation. Traceability. Software quality assurance: verification, validation and the role of testing. Maintenance and evolution. Project. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.
+NOTES: 1. Students who have received credit for SOEN 341 may not take this course for credit.
+2. Students in the BEng in Software Engineering program may not take this course for credit.
+ 
+COMP 361     Elementary Numerical Methods (3 credits)
+Prerequisite: COMP 232, 249. Vector and matrix norms. Numerical methods for solving linear systems, Gaussian elimination, LU decomposition, error analysis. Numerical solution of nonlinear equations, Newton’s method, fixed point iterations. Interpolation and approximation, Taylor, Lagrange, Chebyshev and Legendre polynomials. Cubic spline interpolation. Numerical differentiation, numerical integration, Gauss quadrature. Discrete least‑squares approximation. Initial value problems in ordinary differential equations, stiff differential equations. Boundary value problems in ordinary differential equations. Lectures: three hours per week. Tutorial: one hour per week.
+NOTE: Students who have received credit for ENGR 391 or MAST 334 may not take this course for credit.
+ 
+COMP 367     Techniques in Symbolic Computation (3 credits)
+Prerequisite: COMP 232 or MAST 217; COMP 248 or MAST 234. Symbolic computation and its use in pure and applied mathematics, in particular in algebra, number theory, cryptography, coding theory, and combinatorics. Programming in a symbolic computing system (e.g. MAPLE).
+NOTE: Students who have received credit for MAST 332 may not take this course for credit.
+ 
+COMP 371     Computer Graphics (4 credits)
+Prerequisite: COMP 232 or COEN 231; COMP 352 or COEN 352. Introduction to computer graphics and graphics hardware. Introduction to graphics API and graphics systems architecture. Mathematics of 2D and 3D transformations, and 2D and 3D viewing. Colour and basic rendering algorithms. Visual realism and visibility. Illumination and shading, global illumination techniques, and textures. Introduction to curves and surfaces, and 3D object modelling. Introduction to computer animation. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 376     Introduction to Game Development (4 credits)
+Prerequisite: COMP 371. Introduction to design and implementation aspects of computer gaming: basic game design, storytelling and narratives, and game genres. Virtual environments, 2D and 3D game engines, and game development tools. Character development, gameplay strategies, level design in games, and user interfaces. Architecture of game consoles, analog and digital controllers, and the incorporation of graphics, sound, and music in game implementations. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 426     Multicore Programming (4 credits)
+Prerequisite: COMP 346 or COEN 346. Fundamental concepts of computer architecture. Architecture of the selected multicore platform. Review of shared‑memory parallel programming. The difficulties inherent to parallel programming. Scalability of programming models. The stream programming model for multicore. Implicit and explicit threading. Implicit and explicit orchestration of data movement, both on chip and off. Adapting standard algorithms to multicore. Critical assessment of the available system‑software support. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 428     Parallel Programming (4 credits)
+Prerequisite: COMP 346. Parallel programming techniques as a natural extension to sequential programming. Overview of parallel programming architectures and models. Parallel programming issues: locality, granularity, scheduling, data decomposition and distribution, load balancing, communication and synchronization, determinacy and non‑determinacy, cost and performance. Techniques and tools for message‑passing parallel programming. Case studies. Project. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.
+ 
+COMP 442     Compiler Design (4 credits)
+Prerequisite: COMP 228 or SOEN 228 or COEN 311; COMP 335; COMP 352 or COEN 352. Compiler organization and implementation: lexical analysis and parsing, syntax‑directed translation, code optimization. Run‑time systems. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 444     System Software Design (4 credits)
+Prerequisite: COMP 346. Detailed examination of the design, implementation and system call interface of a contemporary operating system: its kernel, file system, process and thread management including scheduling, file system design and implementation, memory management, device management, I/O management, interprocess communication and synchronization mechanisms, system call interface, interrupt handling, and other advanced issues. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 445     Data Communication and Computer Networks (4 credits)
+Prerequisite: COMP 346. Network architectures: OSI and Internet models. Link layer: error detection, multiple access protocols, addressing. Local area networks: Ethernet, ATM, switches and hubs. Network layer: forwarding and routing, IP, routing algorithms, multicast. Transport layer: connectionless and connection‑oriented transport, reliable data transport, congestion control, QoS, UDP and TCP. Application layer: DNS, the web and http, file transfer, and email. Introduction to network security, multimedia protocols and wireless networking. Lectures: three hours per week. Laboratory: two hours per week.
+
+COMP 451     Database Design (4 credits)
+Prerequisite: COMP 353. Storage management. Buffer management. Data organization. Index structures. Query optimization and execution. Transaction management. Recovery. Concur­rency control. Database performance analysis and tuning. New trends in database technology. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 465     Design and Analysis of Algorithms (3 credits)
+Prerequisite: COMP 232 or COEN 231; COMP 339; COMP 352 or COEN 352. Order statistics: worst‑case, average‑case and amortized analysis. Algorithm design techniques: greedy algorithms, dynamic programming. Selected algorithms from graph theory, linear programming, number theory, string matching, and computational geometry. A survey of hard problems, NP‑completeness, and approximation algorithms. Lectures: three hours per week.
+ 
+COMP 472     Artificial Intelligence (4 credits)
+Prerequisite: COMP 352 or COEN 352. Scope of AI. First‑order logic. Automated reasoning. Search and heuristic search. Game‑playing. Planning. Knowledge representation. Probabilistic reasoning. Introduction to machine learning. Introduction to natural language processing. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 473     Pattern Recognition (4 credits)
+Prerequisite: COMP 352. Preprocessing. Feature extraction and selection. Similarity between patterns and distance measurements. Syntactic and statistical approaches. Clustering analysis. Bayesian decision theory and discriminant functions. Neural networks and machine learning. Applications. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 474     Intelligent Systems (4 credits)
+Prerequisite: COMP 352 or COEN 352. Rule‑based expert systems, blackboard architecture, and agent‑based. Knowledge acquisition and representation. Uncertainty and conflict resolution. Reasoning and explanation. Design of intelligent systems. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 476     Advanced Game Development (4 credits)
+Prerequisite: COMP 361 or ENGR 391; COMP 376. Introduction to advanced aspects of computer games. Game engine design. Artificial Intelligence (AI): non‑player character movement, coordinated movement, pathfinding, world representations; decision making; tactical AI, strategic AI, learning in games. Physics‑based techniques: collision detection and response. Networked gaming: multi‑player games, networking and distributed game design, mobile gaming. Improving realism: cut scenes, 3D sound. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 477     Animation for Computer Games (4 credits)
+Prerequisite: COMP 361 or ENGR 391; COMP 371. Introduction to the algorithms, data structures, and techniques used in modelling and rendering dynamic scenes. Topics include principles of traditional animation, production pipeline, animation hardware and software, orientation representation and interpolation, modelling physical and articulated objects, forward and inverse kinematics, motion control and capture, key‑frame, procedural, and behavioural animation, camera animation, scripting system, and free‑form deformation. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 478     Image Processing (4 credits)
+Prerequisite: COMP 352. Digital image fundamentals, image transforms (Fourier, Walsh, Haar, Hotelling, wavelet), image enhancement (histogram processing, spatial filtering, high‑ and low‑pass filtering), image restoration, image compression (elements of information theory, image compression models, error‑free compression, lossy compression, image compression standards), image segmentation (line detection, Hough transform, edge detection and linking, thresholding, region splitting and merging), representation and description (chain codes, signatures, skeletons, shape descriptors, moments, texture). Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 479     Information Retrieval and Web Search (4 credits)
+Prerequisite: COMP 233 or ENGR 371; COMP 352. Basics of information retrieval (IR): boolean, vector space and probabilistic models. Tokenization and creation of inverted files. Weighting schemes. Evaluation of IR systems: precision, recall, F‑measure. Relevance feedback and query expansion. Application of IR to web search engines: XML, link analysis, PageRank algorithm. Text categorization and clustering techniques as used in spam filtering. Project. Lectures: three hours per week. Laboratory: two hours per week.
+ 
+COMP 490     Computer Science Project I (3 credits)
+Prerequisite: ENCS 282; completion of 60 credits; permission of the Department. Students work on a computer science project under the supervision of a faculty member and submit a suitable written report on the work carried out. Students planning to register for this course should consult with the Department prior to registration in the final year of study.
+NOTE: Students can register for COMP 490 by itself or, with the permission of the Department, students can register for COMP 490 and 492 concurrently and carry out a major project.
+ 
+COMP 492     Computer Science Project II (3 credits)
+Prerequisite: COMP 490 previously or concurrently; permission of the Department. Students work on a computer science project under the supervision of a faculty member and submit a suitable written report on the work carried out. Students planning to register for this course should consult with the Department prior to registration in their final year of study.
+NOTE: Students can register for COMP 492 by itself or, with the permission of the Department, students can register for COMP 490 and 492 concurrently and carry out a major project.
+
+COMP 495     Honours Seminar (1 credit)
+Prerequisite: ENCS 282; registration in the final year of the honours program. Students are required to attend a number of departmental seminars and submit a written report on them.
+ 
+COMP 498     Topics in Computer Science (3 credits)
+Prerequisite: Permission of the Department. This course may be offered in a given year upon the authorization of the Department. The content may vary from offering to offering and will be chosen to complement the available elective courses. Lectures: three hours per week.
+
+SOFTWARE ENGINEERING
+
+SOEN 228     System Hardware (4 credits)
+Prerequisite: MATH 203 or Cegep Mathematics 103, MATH 204 or Cegep Mathematics 105. Processor structure, Data and Instructions, Instruction Set Processor (ISP) level view of computer hardware, assembly language level use. Memory systems — RAM and disks, hierarchy of memories. I/O organization, I/O devices and their diversity, their interconnection to CPU and Memory. Communication between computers at the physical level. Networks and computers. Lectures: three hours per week. Tutorial: two hours per week. Laboratory: two hours per week.
+NOTE: Students who have received credit for COMP 228 may not take this course for credit.
+ 
+SOEN 287     Web Programming (3 credits)
+Prerequisite: COMP 248. Internet architecture and protocols. Web applications through clients and servers. Markup languages. Client‑side programming using scripting languages. Static website contents and dynamic page generation through server‑side programming. Preserving state (client‑side) in web applications. Lectures: three hours per week. Tutorial: two hours per week.
+ 
+SOEN 298     System Hardware Lab (1 credit)
+Prerequisite: Permission of the undergraduate program director. Digital design exercises including assembly and testing corresponding to the SOEN 228 lab. Laboratory: two hours per week.
+ 
+SOEN 321     Information Systems Security (3 credits)
+Prerequisite: COMP 346. Protocol layers and security protocols. Intranets and extranets. Mobile computing. Electronic commerce. Security architectures in open‑network environments. Cryptographic security protocols. Threats, attacks, and vulnerabilities. Security services: confidentiality; authentication; integrity; access control; non‑repudiation; and availability. Security mechanisms: encryption; data‑integrity mechanisms; digital signatures; keyed hashes; access‑control mechanisms; challenge‑response authentication; traffic padding; routing control; and notarization. Key‑management principles. Distributed and embedded firewalls. Security zones. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 331     Introduction to Formal Methods for Software Engineering (3 credits)
+Prerequisite: COMP 232, 249. Assertions. Static and dynamic checking. Method specification using preconditions and postconditions. Strengthening and weakening. Design by contract. Hoare logic. Invariants. Class specification using invariants. Software tools for assertion checking and verification. Reliable software development. Lectures: three hours per week. Tutorial: two hours per week.
+ 
+SOEN 341     Software Process (3 credits)
+Prerequisite: COMP 352 or COEN 352; ENCS 282 previously or concurrently. Basic principles of software engineering. Introduction to software process models. Activities in each phase, including review activities. Working in teams: organization; stages of formation; roles; conflict resolution. Notations used in software documentation. How to review, revise, and improve software documentation. Lectures: three hours per week. Tutorial: one hour per week.
+NOTE: Students who have received credit for COMP 354 may not take this course for credit.
+ 
+SOEN 342     Software Requirements and Specifications (3 credits)
+Prerequisite: SOEN 341. Requirements engineering. Functional and non‑functional requirements. Traceability. Test generation. Formal and informal specifications. Formal specification languages. Reasoning with specifications. Correctness issues. Verification. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 343     Software Architecture and Design I (3 credits)
+Prerequisite: SOEN 341; SOEN 342 previously or concurrently. From requirements to design to implementation. Planned vs. evolutionary design and refactoring. Model‑driven design and Unified Modelling Language (UML). Structural and behavioural design descriptions and specifications. General and domain‑specific design principles, patterns and idioms. Object‑oriented design concepts such as interfaces vs. abstract types, polymorphism, generics, and delegation vs. subclassing. Introduction to software architecture (styles and view models). Design quality. Design rationale. Design methodologies (e.g. based on responsibility assignment). Test‑driven development. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 344     Software Architecture and Design II (3 credits)
+Prerequisite: SOEN 343. Architectural activities, roles, and deliverables. Architectural view models. Architectural styles (including client‑server, layered, pipes‑and‑filters, event‑based, process control) and frameworks. Architectural analysis and the interplay with requirements elicitation. Notations for expressing architectural designs, structural and behavioural specifications. From architectural design to detailed design. Domain specific architectures and design patterns. Evaluation and performance estimation of designs. Advanced object‑oriented design patterns and idioms. Lectures: three hours per week. Tutorial: one hour per week.
+
+SOEN 345     Software Testing, Verification and Quality Assurance (3 credits)
+Prerequisite: SOEN 343 previously or concurrently. Testing strategies. Specification‑based vs. code‑based, black‑box vs. white‑box, functional vs. structural testing; unit, integration, system, acceptance, and regression testing. Verification vs. validation. Test planning, design and artifacts. Introduction to software reliability and quality assurance. Formal verification methods, oracles; static and dynamic program verification. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 357     User Interface Design (3 credits)
+Prerequisite: SOEN 342. The human side: I/O; memory; and information processing. Interaction: mental models; human error; interaction frameworks and paradigms. Direct manipulation. User interface design: principles; standards; and guidelines. User‑centred design: standards and design rationale; heuristic evaluation; iterative design; and prototyping. Task‑centred design. Rationalized design: usability engineering; dialogue notations; user models; diagrammatic notations; and textual notations. Evaluation: with the user; without the user; quantitative; and qualitative. Implementation support. Help and documentation. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 384     Management, Measurement and Quality Control (3 credits)
+Prerequisite: ENCS 282; SOEN 341. Organization of large software development. Roles of team members, leaders, managers, stakeholders, and users. Tools for monitoring and controlling a schedule. Financial, organizational, human, and computational resources allocation and control. Project and quality reviews, inspections, and walkthroughs. Risk management. Communication and collaboration. Cause and effects of project failure. Project management via the Internet. Quality assurance and control. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 385     Control Systems and Applications (3 credits)
+Prerequisite: ENGR 213, 233. Mathematical modelling of dynamical systems; block diagrams; feedback; open and closed loops. Linear differential equations; time domain analysis; free, forced, and total response; steady state and transient response. Laplace transform and inverse transform; second order systems. Transfer functions and stability. Control system design: PID and root locus techniques. Computer simulation of control systems. Applications. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 387     Web‑Based Enterprise Application Design (3 credits)
+Prerequisite: COMP 353 previously or concurrently; COMP 354 or SOEN 341; SOEN 287. Hypertext Transfer Protocol (HTTP), web mark‑up languages and encodings. Document Object Models (DOM). Client/server and layered architectures for Web‑based Enterprise Applications (WEA). Presentation, Domain and Data Source design patterns. Client‑side programming. Java servlets and Java Server Pages. Authentication, security and transaction processing. Lectures: three hours per week. Tutorial: one hour per week.
+ 
+SOEN 390     Software Engineering Team Design Project (3.5 credits)
+Prerequisite: SOEN 344 and 357 previously or concurrently. Students work in teams to design and implement a software project from requirements provided by the coordinator. Each team will demonstrate the software and prepare adequate documentation for it. In addition, each student will write an individual report. Lectures: two hours per week. Tutorial: one hour per week. Laboratory: three hours per week.
+ 
+SOEN 422     Embedded Systems and Software (4 credits)
+Prerequisite: COMP 346. Characteristics of embedded systems. Microcontroller architectures and their software. Development environments. Operating system configuration. Interprocessor and remote communication. Interface, timer and interrupt configu-ration. Control of physical systems. Design, implementation and testing of integrated systems. Advanced topics. Lectures: three hours per week. Tutorial one hour per week. Laboratory: two hours per week.
+NOTE: Students who have received credit for COEN 421 may not take this course for credit.
+ 
+SOEN 423     Distributed Systems (4 credits)
+Prerequisite: COMP 346. Principles of distributed computing: scalability, transparency, concurrency, consistency, fault tolerance, high availability. Client‑server interaction technologies: interprocess communication, sockets, group communication, remote procedure call, remote method invocation, object request broker, CORBA, web services. Server design techniques: process replication, fault tolerance through passive replication, high availability through active replication, coordination and agreement, transactions and concurrency control. Lectures: three hours per week. Tutorial one hour per week. Laboratory: two hours per week.
+ 
+SOEN 448     Management of Evolving Systems (3 credits)
+Prerequisite: SOEN 342, 343, 344. Software maintenance: corrective; perfective; and adaptive. Software reuse; construction of reusable software. Techniques for reverse engineering and re‑engineering software. Software development as “growing” software. Long‑term evolution of software systems. Legacy systems. Lectures: three hours per week.
+ 
+SOEN 449     Component Engineering (3 credits)
+Prerequisite: SOEN 344. Review of high‑level language concepts and abstraction mechanisms. Programming with functional and logical languages. Typed vs. untyped languages. The use of scripting languages and other language‑based techniques to assemble systems from high‑level components. Lectures: three hours per week.
+
+SOEN 487     Web Services and Applications (4 credits)
+Prerequisite: SOEN 387 previously or concurrently. Analysis and design of web services and applications. Advanced architectures for the design, deployment, and testing of large multi‑server web services and applications. Service Oriented Architecture (SOA). Electronic Commerce. Security. Load balancing. Stress testing. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.
+ 
+SOEN 490     Capstone Software Engineering Design Project (4 credits)
+Prerequisite: SOEN 390. Students work in teams of between six and nine members to construct a significant software application. The class meets at regular intervals. Team members will give a presentation of their contribution to the project. Lectures: one hour per week. Laboratory: two hours per week. Two terms.
+ 
+SOEN 491     Software Engineering Project (1 credit)
+Prerequisite: Permission of the undergraduate program director. Theoretical or practical project in an advanced topic in software engineering.
+ 
+SOEN 498     Topics in Software Engineering (3 credits)
+Prerequisite: Permission of the Department. This course may be offered in a given year upon the authorization of the Department. The content may vary from offering to offering and will be chosen to complement the available elective courses. Lectures: three hours per week.
+
+
+
+
+
+◀ Table of Contents
+
+
+
+Faculty of Engineering and Computer ScienceFaculty of Engineering and Computer Science - Section 71Department of Electrical and Computer EngineeringDepartment of Mechanical and Industrial EngineeringDepartment of Building, Civil and Environmental EngineeringAerospace EngineeringEngineering Course DescriptionsDepartment of Computer Science and Software EngineeringComputation Arts and Computer ScienceMathematics and Statistics and Computer ApplicationsCentre for Engineering in SocietyConcordia Institute for Information Systems Engineering
+
+
+jQuery('document').ready(function() {
+    $ = jQuery;
+
+    if (($("#secondary_navigation.c-secondary-navigation a").hasClass("root") && $("#secondary_navigation.c-secondary-navigation li li").hasClass("open")) || 
+        (!$("#secondary_navigation.c-secondary-navigation a").hasClass("root") && $("#secondary_navigation.c-secondary-navigation li").hasClass("open"))) {
+        $("#secondary_navigation.c-secondary-navigation li.open .arrow").parent().children("ul:first").css("display", "block");
+
+        if ($("#secondary_navigation.c-secondary-navigation a").hasClass("root")) {
+            // Make sure the arrow of the root is in "open" state
+            $("#secondary_navigation.c-secondary-navigation .root").parent().children("div.arrow").addClass("open");
+
+            $("#secondary_navigation.c-secondary-navigation li li li.open").parent("ul:first").slideToggle("fast");
+            $("#secondary_navigation.c-secondary-navigation li li li.open").parent().parent().toggleClass("open");
+        }
+        else {
+            $("#secondary_navigation.c-secondary-navigation li li.open").parent("ul:first").slideToggle("fast");
+            $("#secondary_navigation.c-secondary-navigation li li.open").parent().parent().toggleClass("open");
+        }
+    }
+
+    if (window.innerWidth <= 480) {
+        $("#secondary_navigation.c-secondary-navigation .arrow.open:first-child").toggleClass('open');
+        var $this = $("#secondary_navigation.c-secondary-navigation .arrow.open:first");
+        $this.toggleClass('open');
+        $this.parent().toggleClass('open');
+        $this.parent().children('ul').slideToggle('fast');
+    }
+
+    $("#secondary_navigation.c-secondary-navigation .arrow").bind('click touch', function(e) {
+        e.preventDefault();
+        var $this = $(this);
+        $this.toggleClass('open');
+
+        // Put a little timer so the closing level doesn't change background color
+        if ($this.parent().hasClass('open')) {
+            setTimeout(function(){$this.parent().toggleClass('open');}, 200);
+        } else {
+            $this.parent().toggleClass('open');
+        }
+
+        $this.parent().children('ul').slideToggle('fast');
+    });
+});
+
+
+
+
+
+
+
+
+Back to top
+
+
+© Concordia University
+
+
+
+CONCORDIA UNIVERSITY - Call us at 514-848-2424
+
+
+
+
+
+
+
+
+About
+Academics
+Admissions
+Campus life
+Research
+International
+
+
+
+
+
+
+
+
+
+
+Future students
+Current students
+Alumni & friends
+Parents 
+Faculty & staff
+
+
+
+
+
+
+
+
+
+
+
+Sir George Williams Campus
+1455 De Maisonneuve Blvd. W.
+Montreal, Quebec, Canada
+H3G 1M8
+
+See SGW Campus map 
+
+Loyola Campus
+7141 Sherbrooke Street W.
+Montreal, Quebec, Canada
+H4B 1R6
+
+See Loyola Campus map 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+facebook
+twitter
+google
+youtube
+linkedin
+pinterest
+instagram
+flickr
+
+
+Concordia social
+
+
+
+
+
+© Concordia University
+Terms
+Privacy
+Accessibility
+Website feedback
+
+
+
+
+
+
+
+
+Share this page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concordia.ca
+
+
+Call us
+514-848-2424
+
+
+
+
+
+Sir George Williams Campus
+1455 De Maisonneuve Blvd. W.
+Montreal, Quebec, Canada
+H3G 1M8
+
+See SGW Campus map 
+
+Loyola Campus
+7141 Sherbrooke Street W.
+Montreal, Quebec, Canada
+H4B 1R6
+
+See Loyola Campus map 
+
+
+
+
+Website Feedback
+
+Terms
+Privacy
+Accessibility
+
+
+
+© Concordia University
+
+
+
