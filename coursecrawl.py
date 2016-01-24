@@ -26,7 +26,7 @@ def extractCourseCatalog(School):
 	txt_file.close()
 
 	#use regex to find courses, remove duplicates and sort
-	course_names = re.findall('^COMP [1-5]\d\d', encoded_content, flags=re.MULTILINE)
+	course_names = re.findall('COMP [0-5]\d*', html)
 	uniq_names = list(set(course_names))
 	uniq_names.sort()
 
@@ -38,12 +38,10 @@ def extractCourseCatalog(School):
 
 	names_file.close()
 
-
 McGill = School('McGill', 'https://www.cs.mcgill.ca/academic/courses/all_courses')
 Concordia = School('Concordia', 'https://www.concordia.ca/academics/undergraduate/calendar/current/sec71/71-70.html#b71.70.10')
+Carleton = School('Carleton', 'http://calendar.carleton.ca/undergrad//courses/COMP/')
 
-print McGill.name
 extractCourseCatalog(McGill)
-
-print Concordia.name
 extractCourseCatalog(Concordia)
+extractCourseCatalog(Carleton)
